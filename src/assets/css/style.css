@@ -1,0 +1,546 @@
+hr {
+  width: 100%;
+}
+
+p {
+  color: #000000;
+}
+
+/* .Toastify__toast--success {
+  background: #14A8A6;
+} */
+
+/* ========== Custom Scroll Styles =========== */
+
+/* width */
+::-webkit-scrollbar {
+  width: 7px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #27293d;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #333645;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #333645;
+}
+
+
+/* ========== Custom MainContainer Styles =========== */
+
+.main-container {
+  background-color: #ffffff !important;
+  padding: 20px 30px !important;
+  border-radius: 4px !important;
+  box-shadow: 0 3px 8px -3px !important;
+  min-height: 90vh;
+}
+
+.main-container-head {
+  display: flex;
+  justify-content: space-between;
+}
+
+.main-container-heading {
+  color: #000000;
+  font-size: 18px;
+  font-weight: 550;
+  margin-top: 10px;
+}
+
+/* ========== Custom Table Styles =========== */
+
+.table .rt-tbody .rt-td {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* ========== Custom Slider Styles =========== */
+
+.slider {
+  padding: 30px 40px;
+  width: 1175px;
+}
+
+/*========== Custom Styles View Data  ============= */
+
+.view-data .view-data-main-title {
+  font-weight: 500;
+  font-size: 26px;
+  padding-bottom: 5px;
+}
+
+.view-data .view-data-body .view-data-row {
+  background-color: #eaeded;
+  padding: 10px 20px;
+  border-radius: 10px;
+  font-size: 16px;
+}
+
+.view-data .view-data-body .view-data-row .view-data-title {
+  font-weight: 600;
+}
+
+.view-data .view-data-body .view-data-sub-title {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.view-data .view-data-footer {
+  display: flex;
+  justify-content: center;
+}
+
+
+/*========== Custom Styles Edit-Add Slider ============= */
+
+.edit-add {
+  text-align: center;
+  padding: 30px 70px;
+  border-radius: 20px;
+  transition: all .5s ease-in-out;
+  -webkit-transition: all .5s ease-in-out;
+  box-shadow: 0 4px 29px rgba(47, 47, 47, .1);
+}
+
+.edit-add .edit-add-title {
+  padding: 15px;
+  font-size: 26px;
+  font-weight: 500;
+  text-align: center;
+}
+
+.edit-add .edit-add-sub-title {
+  font-size: 20px;
+  font-weight: 500;
+  text-align: start;
+}
+
+.edit-add .edit-add-body .edit-img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  background: 'gray';
+}
+
+.edit-add .edit-add-body .edit-add-field .form-input-field .MuiFormLabel-root.Mui-focused {
+  color: #5bf8fd;
+}
+
+.edit-add .edit-add-body .form.edit-add-field .form-input-field .MuiOutlinedInput-root .MuiOutlinedInput-notchedOutline {
+  border: 1px solid #6c757d;
+}
+
+.edit-add .edit-add-body .edit-add-field .form-input-field .MuiOutlinedInput-root:hover .MuiOutlinedInput-notchedOutline {
+  border: 2px solid #5bf8fd;
+}
+
+.edit-add .edit-add-body .edit-add-field .form-input-field .MuiOutlinedInput-notchedOutline {
+  border: 1px solid #6c757d;
+}
+
+.MuiAutocomplete-option {
+  color: #000000;
+}
+
+.edit-add .edit-add-body .edit-add-buttons {
+  display: flex;
+  padding: 30px 90px;
+  justify-content: center;
+}
+
+.add-modal h2 {
+  font-size: 28px;
+  font-weight: 600;
+  color: #41ffff !important;
+  margin-bottom: 21px;
+  margin-top: 0;
+}
+
+.add-modal .delete-text {
+  margin-bottom: -14px;
+  color: #fff !important;
+  font-size: 20px;
+}
+
+/* ========== Custom Button Styles =========== */
+
+.btn-edit {
+  background-color: rgba(0, 0, 0, 0.08);
+  display: inline-block;
+  font-weight: 600;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  user-select: none;
+  border: 1px solid transparent;
+  padding: 11px 40px;
+  font-size: 0.875rem;
+  line-height: 1.35em;
+  border-radius: 0.25rem;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.btn-edit:hover,
+.btn-edit:focus {
+  text-decoration: none;
+}
+
+.btn-edit:focus,
+.btn-edit.focus {
+  outline: 0;
+  box-shadow: 0 7px 14px rgba(50, 50, 93, 0.1), 0 3px 6px rgba(0, 0, 0, 0.08);
+}
+
+.add-btn,
+.login-page .login-form .login-field button {
+  color: #ffffff !important;
+  padding: 5px 15px !important;
+  border-radius: 25px !important;
+  background-color: #22d8c3 !important;
+  border: 1px solid #22d8c3 !important;
+  box-shadow: 0 0 15px 0 rgba(0,0,0,0.4) inset !important;
+  transition: all 0.3s ease-in-out;
+}
+
+.add-btn:hover,
+.login-page .login-form .login-field button:hover {
+  color: #22d8c3 !important;
+  border: 1px solid #22d8c3 !important;
+  background-color: #fff !important;
+}
+
+.main-modal .modal-content .modal-body .form .form-group .MuiButton-containedSizeMedium {
+  padding: 5px 35px !important;
+  border-radius: 25px !important;
+  transition: all 0.3s ease-in-out;
+  color: #fff !important;
+  background-color: #22d8c3 !important;
+  border: 1px solid #22d8c3 !important;
+  box-shadow: 0 0 10px 0 rgba(0,0,0,4) inset !important;
+}
+
+.main-modal .modal-content .modal-body .form .form-group .MuiButton-containedSizeMedium:hover {
+  color: #22d8c3 !important;
+  border: 1px solid #22d8c3 !important;
+  background-color: #fff !important;
+}
+table tbody tr th input {
+    width: 100%;
+    text-align: center;
+}
+
+table tbody tr th .MuiInputBase-root {
+    width: 100%;
+    text-align: center;
+}
+/* table tbody tr th .MuiFormControl-root label {
+  left: -14px;
+  top: -8px;
+  color: #00000050 !important;
+} */
+table tbody tr th .MuiFormControl-root {
+    width: 100%;
+    text-align: center;
+    border: 1px solid #ccc;
+}
+
+
+.view-btn {
+  min-width: 45% !important;
+  color: #5bf8fd !important;
+  border-radius: 10px !important;
+  border: 1px solid #333645 !important;
+}
+
+.view-btn:hover {
+  color: #ffffff !important;
+  background-color: #f47a2f !important;
+}
+
+.edit-btn {
+  min-width: 45% !important;
+  color: #5bf8fd !important;
+  border-radius: 10px !important;
+  border: 1px solid #333645 !important;
+}
+
+.edit-btn:hover {
+  color: #ffffff !important;
+  background-color: #f47a2f !important;
+}
+
+.delete-btn {
+  min-width: 45% !important;
+  color: #68130a !important;
+  border-radius: 10px !important;
+  border: 1px solid #e74c3c !important;
+}
+
+.delete-btn:hover {
+  color: #ffffff !important;
+  background-color: #e74c3c !important;
+}
+
+.cancel-btn {
+
+  border-radius: 20px !important;
+  color: #333645 !important;
+  border: 1px solid #333645 !important;
+}
+
+.cancel-btn:hover {
+  color: #ffffff !important;
+  background-color: #333645 !important;
+}
+
+.submit-btn {
+  width: 160px;
+  height: 40px;
+  border-radius: 10px !important;
+  color: #ffffff !important;
+  background: #222a42 !important;
+  transition: all 0.3s ease-in-out;
+}
+
+.submit-btn:hover {
+  width: 160px;
+  height: 40px;
+  border-radius: 10px !important;
+  background-color: #333645 !important;
+}
+
+.confirm-btn {
+  border-radius: 10px !important;
+  color: #ffffff !important;
+  background: #5bf8fd !important;
+}
+
+Button:focus {
+  outline: 0px !important;
+}
+
+/* ========== Custom AppLoader Styles =========== */
+
+.loader-spinner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 85vh;
+  color: #f47a2f;
+}
+
+.blue-loader {
+  color: #f47a2f;
+}
+
+/* ========== Main Modal Styles =========== */
+
+.main-modal {
+  max-width: 750px !important;
+  top: 5%;
+}
+.payment-modals {
+  max-width: 550px !important;
+}
+.main-modal .modal-header,
+.modal-footer {
+  border: none !important;
+}
+
+.main-modal .modal-content {
+  background: #026468;
+  background: linear-gradient(0deg, #026468 0%, #282a37 100%);
+  background-size: 200% 200%;
+  /* -webkit-animation: Animation 15s ease infinite;
+  animation: Animation 15s ease infinite; */
+  border-radius: 30px !important;
+}
+
+.main-modal .modal-content .modal-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 20px;
+}
+.main-modal .modal-content .modal-header {
+  border-bottom: 1px solid #ffffff50 !important;
+  padding-bottom: 15px;
+}
+.main-modal .modal-content .modal-header .close {
+  color: #fff !important;
+  z-index: 5555555555555555555555555555555555555555555555555555555555555555555;
+}
+
+.main-modal .modal-content .modal-header .modal-logo {
+  display: flex;
+  justify-content: center;
+}
+
+.main-modal .modal-content .modal-header .modal-logo img {
+  width: 57%;
+  padding: 0;
+  margin: 8px 0px 21px;
+}
+
+.MuiFormHelperText-root.Mui-error {
+  color: #f44336 !important;
+}
+
+.main-modal .modal-content .modal-body {
+  padding: 0px;
+  color: white;
+  font-weight: bold;
+}
+
+.main-modal .modal-content .modal-body .form {
+  position: relative;
+}
+
+.main-modal .modal-content .modal-body .form .form-group {
+  margin-bottom: 20px;
+}
+
+.main-modal .modal-content .modal-body .form .form-group label {
+  font-size: 15px;
+  font-weight: 400;
+  color: #fff;
+  margin-bottom: 10px;
+  width: 100%;
+}
+
+.main-modal .modal-content .modal-body .form .form-group .MuiFormControl-root {
+  padding: 0;
+  margin: 0;
+}
+
+.main-modal .modal-content .modal-body .form .form-group .MuiFormControl-root .MuiInputBase-root {
+  border: none;
+  margin: 0;
+  padding: 0;
+  color: #fff;
+}
+
+.main-modal .modal-content .modal-body .form .form-group .MuiFormControl-root .MuiInputBase-root::before,
+.login-page .login-form .validator-form .MuiInput-underline:before,
+.login-page .login-form .validator-form .MuiInput-underline:after {
+  display: none;
+}
+
+.main-modal .modal-content .modal-body .form .form-group .MuiFormControl-root .MuiInputBase-root::after {
+  display: none;
+}
+
+.login-page .login-form .validator-form label {
+  position: relative;
+  transform: translate(0, 0) !important;
+  text-align: left;
+  margin-bottom: 0;
+}
+
+/* .main-modal .modal-content .modal-body .form .form-group .MuiFormControl-root .MuiInputBase-root input,
+.main-modal .modal-content .modal-body .form .form-group .MuiFormControl-root .MuiInputBase-root .MuiSelect-select.MuiSelect-select,
+.main-modal .modal-content .modal-body .form .form-group input[type=file] {
+  border: 1px solid #fff;
+  border-radius: 7px;
+  padding: 13px 15px;
+  background-color: #00f3ff20;
+  color: #fff;
+} */
+.login-page .login-form .MuiInputBase-root input {
+  border: 1px solid #fff;
+  border-radius: 7px;
+  padding: 13px 15px;
+  background-color: #00f3ff20;
+  color: #fff;
+}
+
+.main-modal .modal-content .modal-body .form .form-group .MuiSelect-icon {
+  color: rgba(255, 255, 255, 0.54);
+}
+
+.modal-content .modal-header .modal-title h2,
+.login-page .login-form .login-title {
+  font-size: 28px;
+  font-weight: 600;
+  color: white !important;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+.ReactTable .rt-table .rt-thead .rt-tr {
+  padding: 10px;
+}
+
+.ReactTable .rt-table .rt-thead .rt-tr .rt-th {
+  font-size: 17px;
+  font-weight: 600;
+}
+
+.ReactTable .rt-tr.-odd {
+  background-color: #f5f5f570;
+}
+
+.ReactTable .rt-tbody .rt-tr-group select {
+  padding: 5px 20px;
+  border-radius: 4px;
+  border: 1px solid #333645;
+  background-color: #333645;
+  color: #fff;
+}
+
+.MuiMenu-list {
+  border-radius: 4px;
+  border: 1px solid #333645;
+  background-color: #333645;
+  color: #fff;
+}
+
+.MuiMenu-list option {
+  padding: 10px;
+  border-bottom: 1px solid #ffffff40;
+}
+
+.MuiMenu-list option:last-child {
+  border-bottom: none;
+}
+
+/*========== Responsive ============= */
+
+@media only screen and (max-width: 650px) {
+
+  .slider {
+    padding: 30px;
+    width: 500px;
+  }
+
+  .slider .edit-add {
+    padding: 20px 10px;
+  }
+
+  .slider .edit-add .slider-body .edit-add-buttons {
+    padding: 30px;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  .slider {
+    padding: 20px;
+    width: 400px;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .slider {
+    padding: 10px;
+    width: 325px;
+  }
+}

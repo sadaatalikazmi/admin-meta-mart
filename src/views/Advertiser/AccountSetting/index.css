@@ -1,0 +1,273 @@
+.content.create-banner-page .MuiPaper-root .MuiCollapse-root .MuiCollapse-wrapper .MuiCollapse-wrapperInner .MuiAccordion-region .MuiAccordionDetails-root .account-box {
+    position: relative;
+    width: 100%;
+}
+
+.content.create-banner-page .MuiPaper-root .MuiCollapse-root .MuiCollapse-wrapper .MuiCollapse-wrapperInner .MuiAccordion-region .MuiAccordionDetails-root .account-box .account-detail {
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    padding: 10px 15px;
+}
+
+.content.create-banner-page .MuiPaper-root .MuiCollapse-root .MuiCollapse-wrapper .MuiCollapse-wrapperInner .MuiAccordion-region .MuiAccordionDetails-root .account-box .account-detail .form-group {width: 65%;}
+
+.content.create-banner-page .MuiPaper-root .MuiCollapse-root .MuiCollapse-wrapper .MuiCollapse-wrapperInner .MuiAccordion-region .MuiAccordionDetails-root .account-box .account-detail .right-area {
+    width: 31%;
+    border-left: 1px solid #ffffff20;
+    padding-left: 22px;
+}
+
+.content.create-banner-page .MuiPaper-root .MuiCollapse-root .MuiCollapse-wrapper .MuiCollapse-wrapperInner .MuiAccordion-region .MuiAccordionDetails-root .account-box .account-detail .right-area p {
+    color: #fff !important;
+    font-size: 12px;
+}
+
+.content.create-banner-page .MuiPaper-root .MuiCollapse-root .MuiCollapse-wrapper .MuiCollapse-wrapperInner .MuiAccordion-region .MuiAccordionDetails-root .account-box .bottom-footer {
+    position: relative;
+    display: flex;
+    width: 100%;
+    border-top: 1px solid #ffffff20;
+    padding-top: 11px;
+    justify-content: end;
+    padding-right: 15px;
+}
+
+.content.create-banner-page .MuiPaper-root .MuiCollapse-root .MuiCollapse-wrapper .MuiCollapse-wrapperInner .MuiAccordion-region .MuiAccordionDetails-root .account-box .bottom-footer .btn-style-two {
+    margin-right: 16px;
+}
+
+.content.create-banner-page .MuiPaper-root .MuiCollapse-root .MuiCollapse-wrapper .MuiCollapse-wrapperInner .MuiAccordion-region .MuiAccordionDetails-root .account-box .account-detail .form-group label {
+    width: 100%;
+}
+
+.content.create-banner-page .MuiPaper-root .MuiCollapse-root .MuiCollapse-wrapper .MuiCollapse-wrapperInner .MuiAccordion-region .MuiAccordionDetails-root .account-box .account-detail .form-group input {
+    margin-bottom: 20px;
+}
+
+.content.create-banner-page .MuiPaper-root .MuiCollapse-root .MuiCollapse-wrapper .MuiCollapse-wrapperInner .MuiAccordion-region .MuiAccordionDetails-root .account-box .account-detail .form-group label.label-off {
+    font-size: 15px;
+}
+.content.create-banner-page .MuiPaper-root .MuiCollapse-root .MuiCollapse-wrapper .MuiCollapse-wrapperInner .MuiAccordion-region .MuiAccordionDetails-root .account-box .account-detail .form-group label .MuiCheckbox-sizeMedium.Mui-checked,
+.content.create-banner-page .MuiPaper-root .MuiCollapse-root .MuiCollapse-wrapper .MuiCollapse-wrapperInner .MuiAccordion-region .MuiAccordionDetails-root .account-box .account-detail .form-group label .MuiCheckbox-sizeMedium.Mui-checked svg{
+    display: inline-block;
+}
+
+.MuiTouchRipple-root.Mui-checked,
+.css-1j7cuh1-MuiButtonBase-root-MuiSwitch-switchBase.Mui-checked{
+    color: #00f3ff40 !important;
+}
+.css-1j7cuh1-MuiButtonBase-root-MuiSwitch-switchBase.Mui-checked + .MuiSwitch-track{
+    background-color: #00f3ff40 !important;
+}
+
+.content.create-banner-page .MuiPaper-root .MuiCollapse-root .MuiCollapse-wrapper .MuiCollapse-wrapperInner .MuiAccordion-region .MuiAccordionDetails-root .account-box .account-detail .form-group label {
+    width: 100%;
+}
+
+.content.create-banner-page .MuiPaper-root .MuiCollapse-root .MuiCollapse-wrapper .MuiCollapse-wrapperInner .MuiAccordion-region .MuiAccordionDetails-root .account-box .account-detail .form-group input {
+    margin-bottom: 20px;
+}
+
+.content.create-banner-page .MuiPaper-root .MuiCollapse-root .MuiCollapse-wrapper .MuiCollapse-wrapperInner .MuiAccordion-region .MuiAccordionDetails-root .account-box .account-detail .form-group label.label-off {
+    font-size: 15px;
+}
+
+.content.create-banner-page .MuiPaper-root .MuiCollapse-root .MuiCollapse-wrapper .MuiCollapse-wrapperInner .MuiAccordion-region .MuiAccordionDetails-root .account-box .bottom-footer.style-two {
+    display: block;
+    padding: 10px 15px;
+}
+
+.content.create-banner-page .MuiPaper-root .MuiCollapse-root .MuiCollapse-wrapper .MuiCollapse-wrapperInner .MuiAccordion-region .MuiAccordionDetails-root .account-box .bottom-footer.style-two label {
+    width: 100%;
+    font-size: 16px;
+}
+
+.content.create-banner-page .MuiPaper-root .MuiCollapse-root .MuiCollapse-wrapper .MuiCollapse-wrapperInner .MuiAccordion-region .MuiAccordionDetails-root .account-box .bottom-footer.style-two p {
+    margin-left: 11px;
+    font-size: 12px;
+}
+.content.create-banner-page .MuiPaper-root .MuiCollapse-root .MuiCollapse-wrapper .MuiCollapse-wrapperInner .MuiAccordion-region .MuiAccordionDetails-root .account-box .account-detail .form-group .radiobox {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+}
+.content.create-banner-page .MuiPaper-root .MuiCollapse-root .MuiCollapse-wrapper .MuiCollapse-wrapperInner .MuiAccordion-region .MuiAccordionDetails-root .account-box .account-detail .form-group.style-two {
+    width: 100%;
+}
+.content.create-banner-page .MuiPaper-root .MuiCollapse-root .MuiCollapse-wrapper .MuiCollapse-wrapperInner .MuiAccordion-region .MuiAccordionDetails-root .account-box .account-detail .form-group.style-two {
+    width: 100%;
+}
+
+.content.create-banner-page .MuiPaper-root .MuiCollapse-root .MuiCollapse-wrapper .MuiCollapse-wrapperInner .MuiAccordion-region .MuiAccordionDetails-root .account-box .bottom-footer .table-deta {
+    display: flex;
+    align-items: center;
+}
+
+.content.create-banner-page .MuiPaper-root .MuiCollapse-root .MuiCollapse-wrapper .MuiCollapse-wrapperInner .MuiAccordion-region .MuiAccordionDetails-root .account-box .bottom-footer .table-deta .plus-btn {
+    width: 40px;
+    height: 40px;
+    border: none;
+    background-color: #00f3ff40;
+    color: #fff;
+    font-size: 21px;
+    border-radius: 50%;
+    box-shadow: 0 0 5px rgba(0 0 0 / 40%);
+    margin-right: 20px;
+}
+
+.content.create-banner-page .MuiPaper-root .MuiCollapse-root .MuiCollapse-wrapper .MuiCollapse-wrapperInner .MuiAccordion-region .MuiAccordionDetails-root .account-box .bottom-footer .table-deta .dropdown {
+    position: relative;
+}
+
+.content.create-banner-page .MuiPaper-root .MuiCollapse-root .MuiCollapse-wrapper .MuiCollapse-wrapperInner .MuiAccordion-region .MuiAccordionDetails-root .account-box .bottom-footer .table-deta .dropdown button {
+    background: none !important;
+    padding: 0 !important;
+    margin-right: 15px;
+    color: #ffffff;
+    box-shadow: none !important;
+}
+
+.content.create-banner-page .MuiPaper-root .MuiCollapse-root .MuiCollapse-wrapper .MuiCollapse-wrapperInner .MuiAccordion-region .MuiAccordionDetails-root .account-box .bottom-footer .table-deta .dropdown button .icon {
+    opacity: 0.7;
+    margin-right: 7px;
+}
+
+.content.create-banner-page .MuiPaper-root .MuiCollapse-root .MuiCollapse-wrapper .MuiCollapse-wrapperInner .MuiAccordion-region .MuiAccordionDetails-root .account-box .bottom-footer .table-deta .dropdown .dropdown-menu {
+    background-color: #282a37 !important;
+}
+.content.create-banner-page .MuiPaper-root .MuiCollapse-root .MuiCollapse-wrapper .MuiCollapse-wrapperInner .MuiAccordion-region .MuiAccordionDetails-root .account-box .account-detail .form-group.style-two {
+    width: 100%;
+}
+
+.content.create-banner-page .MuiPaper-root .MuiCollapse-root .MuiCollapse-wrapper .MuiCollapse-wrapperInner .MuiAccordion-region .MuiAccordionDetails-root .account-box .bottom-footer .table-deta {
+    display: flex;
+    align-items: center;
+}
+
+.content.create-banner-page .MuiPaper-root .MuiCollapse-root .MuiCollapse-wrapper .MuiCollapse-wrapperInner .MuiAccordion-region .MuiAccordionDetails-root .account-box .bottom-footer .table-deta .plus-btn {
+    width: 40px;
+    height: 40px;
+    border: none;
+    background-color: #00f3ff40;
+    color: #fff;
+    font-size: 21px;
+    border-radius: 50%;
+    box-shadow: 0 0 5px rgba(0 0 0 / 40%);
+    margin-right: 20px;
+}
+
+.content.create-banner-page .MuiPaper-root .MuiCollapse-root .MuiCollapse-wrapper .MuiCollapse-wrapperInner .MuiAccordion-region .MuiAccordionDetails-root .account-box .bottom-footer .table-deta .dropdown {
+    position: relative;
+}
+
+.content.create-banner-page .MuiPaper-root .MuiCollapse-root .MuiCollapse-wrapper .MuiCollapse-wrapperInner .MuiAccordion-region .MuiAccordionDetails-root .account-box .bottom-footer .table-deta .dropdown button {
+    background: none !important;
+    padding: 0 !important;
+    margin-right: 15px;
+    color: #ffffff;
+    box-shadow: none !important;
+}
+
+.content.create-banner-page .MuiPaper-root .MuiCollapse-root .MuiCollapse-wrapper .MuiCollapse-wrapperInner .MuiAccordion-region .MuiAccordionDetails-root .account-box .bottom-footer .table-deta .dropdown button .icon {
+    opacity: 0.7;
+    margin-right: 7px;
+}
+
+.content.create-banner-page .MuiPaper-root .MuiCollapse-root .MuiCollapse-wrapper .MuiCollapse-wrapperInner .MuiAccordion-region .MuiAccordionDetails-root .account-box .bottom-footer .table-deta .dropdown .dropdown-menu {
+    background-color: #282a37 !important;
+}
+.content.create-banner-page .MuiPaper-root .MuiCollapse-root .MuiCollapse-wrapper .MuiCollapse-wrapperInner .MuiAccordion-region .MuiAccordionDetails-root .account-box .bottom-footer .table-deta .download-btn {
+    position: absolute;
+    right: 0;
+    background-color: transparent;
+    border: none;
+    color: #fff;
+    font-size: 12px;
+}
+
+.content.create-banner-page .MuiPaper-root .MuiCollapse-root .MuiCollapse-wrapper .MuiCollapse-wrapperInner .MuiAccordion-region .MuiAccordionDetails-root .account-box .bottom-footer .table-deta .download-btn .icon {
+    display: block;
+}
+.content.create-banner-page .MuiPaper-root .MuiCollapse-root .MuiCollapse-wrapper .MuiCollapse-wrapperInner .MuiAccordion-region .MuiAccordionDetails-root .account-box .account-detail .right-area a {
+    color: #00f3ff !important;
+}
+.content.create-banner-page .MuiPaper-root .MuiCollapse-root .MuiCollapse-wrapper .MuiCollapse-wrapperInner .MuiAccordion-region .MuiAccordionDetails-root .account-box .account-detail .form-group .textbox {
+    max-height: 180px;
+    overflow-y: auto;
+    margin: 10px 0;
+}
+
+.content.create-banner-page .MuiPaper-root .MuiCollapse-root .MuiCollapse-wrapper .MuiCollapse-wrapperInner .MuiAccordion-region .MuiAccordionDetails-root .account-box .account-detail .form-group .textbox p {
+    font-size: 13px;
+    margin-bottom: 17px;
+}
+
+.content.create-banner-page .MuiPaper-root .MuiCollapse-root .MuiCollapse-wrapper .MuiCollapse-wrapperInner .MuiAccordion-region .MuiAccordionDetails-root .account-box .account-detail .form-group .textbox ul li {
+    font-size: 12px;
+}
+.content.create-banner-page .MuiPaper-root .MuiCollapse-root .MuiCollapse-wrapper .MuiCollapse-wrapperInner .MuiAccordion-region .MuiAccordionDetails-root .account-box .account-detail .form-group .info-box {
+    background-color: #1967d220;
+    padding: 10px 15px;
+    border-radius: 7px;
+    margin-bottom: 20px;
+}
+
+.content.create-banner-page .MuiPaper-root .MuiCollapse-root .MuiCollapse-wrapper .MuiCollapse-wrapperInner .MuiAccordion-region .MuiAccordionDetails-root .account-box .account-detail .form-group .info-box p {
+    font-size: 12px;
+}
+
+.content.create-banner-page .MuiPaper-root .MuiCollapse-root .MuiCollapse-wrapper .MuiCollapse-wrapperInner .MuiAccordion-region .MuiAccordionDetails-root .account-box .account-detail .form-group .info-box p .icon {
+    margin-right: 15px;
+}
+
+.content.create-banner-page .MuiPaper-root .MuiCollapse-root .MuiCollapse-wrapper .MuiCollapse-wrapperInner .MuiAccordion-region .MuiAccordionDetails-root .account-box .account-detail .form-group .info-box p .icon svg {
+    color: #1967d2;
+}
+
+.content.create-banner-page .MuiPaper-root .MuiCollapse-root .MuiCollapse-wrapper .MuiCollapse-wrapperInner .MuiAccordion-region .MuiAccordionDetails-root .account-box .account-detail .form-group span {
+    font-size: 10px;
+    color: #ffffff50;
+}
+
+.content.create-banner-page .MuiPaper-root .MuiCollapse-root .MuiCollapse-wrapper .MuiCollapse-wrapperInner .MuiAccordion-region .MuiAccordionDetails-root .account-box .account-detail .form-group .warning-box {
+    background-color: #a85d0030;
+    padding: 10px 15px;
+    border-radius: 8px;
+    margin: 15px 0;
+}
+
+.content.create-banner-page .MuiPaper-root .MuiCollapse-root .MuiCollapse-wrapper .MuiCollapse-wrapperInner .MuiAccordion-region .MuiAccordionDetails-root .account-box .account-detail .form-group .warning-box p {
+    font-size: 12px;
+}
+
+.content.create-banner-page .MuiPaper-root .MuiCollapse-root .MuiCollapse-wrapper .MuiCollapse-wrapperInner .MuiAccordion-region .MuiAccordionDetails-root .account-box .account-detail .form-group .warning-box p .icon {
+    margin-right: 15px;
+}
+
+.content.create-banner-page .MuiPaper-root .MuiCollapse-root .MuiCollapse-wrapper .MuiCollapse-wrapperInner .MuiAccordion-region .MuiAccordionDetails-root .account-box .account-detail .form-group .warning-box p .icon svg {
+    color: #a85d00;
+}
+
+.content.create-banner-page .MuiPaper-root .MuiCollapse-root .MuiCollapse-wrapper .MuiCollapse-wrapperInner .MuiAccordion-region .MuiAccordionDetails-root .account-box .account-detail .form-group p {
+    font-size: 12px;
+}
+
+
+@media only screen and (max-width: 1400px){
+    .content.create-banner-page .MuiPaper-root .MuiCollapse-root .MuiCollapse-wrapper .MuiCollapse-wrapperInner .MuiAccordion-region .MuiAccordionDetails-root .account-box .account-detail .form-group {
+        width: 62%;
+    }
+}
+@media only screen and (max-width: 600px){
+    .content.create-banner-page .MuiPaper-root .MuiCollapse-root .MuiCollapse-wrapper .MuiCollapse-wrapperInner .MuiAccordion-region .MuiAccordionDetails-root .account-box .account-detail .form-group,
+    .content.create-banner-page .MuiPaper-root .MuiCollapse-root .MuiCollapse-wrapper .MuiCollapse-wrapperInner .MuiAccordion-region .MuiAccordionDetails-root .account-box .account-detail .right-area {
+        width: 100%;
+        border: none;
+        padding: 0;
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+}

@@ -1,0 +1,247 @@
+.total,
+.vat,
+.net-amount {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.add-modal .img-box {
+    text-align: center;
+    height: 450px;
+    width: 100%;
+}
+.add-modal .img-box img {
+    width: 70%;
+    margin: 0 auto;
+    height: 100%;
+    object-fit: none;
+}
+.label {
+    color: white;
+}
+
+.value {
+    color: white;
+    font-weight: bold;
+    /* margin-bottom: 10px; */
+}
+
+.labels {
+    display: flex;
+    color: white;
+    margin-right: 1.5rem;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.values {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+}
+.banner-details {
+    display: flex;
+    flex-wrap: wrap;
+}
+.banners-modal .modal-scroll-area {
+    max-height: 480px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    padding-right: 10px;
+}
+.banner-row {
+    display: flex;
+    justify-content: space-around;
+}
+
+.banner-details .user-box {
+    width: calc(33.33% - 0px);
+    margin-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.banner-details .user-box h5 {
+    font-size: 16px;
+    color: #fff;
+}
+
+.banner-details .user-box p {
+    border: 1px solid #ffffff40;
+    border-radius: 7px;
+    padding: 5px 15px;
+    background-color: #00f3ff40;
+    color: #fff !important;
+    height: 40px;
+    text-transform: capitalize;
+}
+.add-modal h3 {
+    font-size: 20px;
+    font-weight: 600;
+    color: white !important;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.banner-details .preview-video {
+    width: 100%;
+    padding:0 10px;
+}
+
+.main-modal .preview-video {
+    width: 100%;
+    border-radius: 12px;
+}
+.add-modal .preview-img {
+    width: 100%;
+    border-radius: 6px;
+}
+.order-table-page table tbody tr td .btn-style-one {
+    color: #ffffff !important;
+    padding: 5px 15px !important;
+    border-radius: 25px !important;
+    background-color: #22d8c3 !important;
+    border: 1px solid #22d8c3 !important;
+    box-shadow: 0 0 15px 0 rgba(0,0,0,0.4) inset !important;
+    transition: all 0.3s ease-in-out;
+    margin-left: 12px;
+}
+
+.order-table-page table tbody tr td .btn-style-one:hover {
+    color: #22d8c3 !important;
+    border: 1px solid #22d8c3 !important;
+    background-color: #fff !important;
+}
+.order-table-page table tbody tr td .Mui-disabled {
+    background-color: #fff !important;
+    color: #22d8c3 !important;
+    opacity: 0.5;
+}
+.main-panel>.content video.preview-video {
+    width: 100%;
+    padding: 0 10px;
+    border-radius: 8px !important;
+}
+h3.title-preivew {
+    font-size: 20px;
+    margin-bottom: 7px;
+    padding: 0 10px;
+}
+.StripeElement {
+    background-color: #fff;
+    padding: 11px;
+    border-radius: 7px;
+    margin-bottom: 20px;
+}
+.main-modal .modal-content .modal-body .form-group {
+    position: relative;
+}
+
+.main-modal .modal-content .modal-body .form-group label {
+    display: block;
+    width: 100%;
+}
+
+.main-modal .modal-content .modal-body .form-group input {
+    border: 1px solid #ffffff40;
+    border-radius: 7px;
+    padding: 5px 15px;
+    background-color: #00f3ff40;
+    color: #fff !important;
+    height: 40px;
+    width: 100%;
+    display: block;
+}
+.main-modal .modal-content .modal-body .form-group input::placeholder{
+    color: #ffffff40;
+}
+.payment-modals.main-modal .modal-content .modal-body .form-group .btn-style-one,
+.top-heading-area .btn-style-one {
+    background: #22d8c3 !important;
+    border: 1px solid #22d8c3 !important;
+    padding: 0.4rem 2rem;
+    font-size: 12px;
+    color: #fff;
+    border-radius: 34px;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.35) inset;
+}
+.payment-modals.main-modal .modal-content .modal-body .form-group .btn-style-one:hover,
+.top-heading-area .btn-style-one:hover {
+    background: #fff !important;
+    border: 1px solid #22d8c3 !important;
+    color: #22d8c3;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0) inset;
+}
+.adv-chart-item .chart-detail.chart-date-change .apexcharts-xaxis-title text {
+    position: absolute !important;
+    bottom: -10px !important;
+}
+.main-modal .modal-content .modal-body .form-group input:first-letter{
+    text-transform: uppercase;
+}
+.modal-new .modal-content .modal-body form button {
+    color: #ffffff !important;
+    padding: 5px 35px !important;
+    border-radius: 25px !important;
+    background-color: #22d8c3 !important;
+    border: 1px solid #22d8c3 !important;
+    box-shadow: 0 0 15px 0 rgba(0,0,0,0.4) inset !important;
+    transition: all 0.3s ease-in-out;
+    margin: 0 auto 20px;
+    text-align: center;
+    display: block;
+}
+.modal-new .modal-content .modal-body form button:hover{  
+    color: #22d8c3 !important;
+    border: 1px solid #22d8c3 !important;
+    background-color: #fff !important;
+}
+
+.payment-modals.main-modal .modal-content .modal-body\ {
+    padding: 0 25px !important;
+}
+
+.payment-modals.main-modal .modal-content .modal-body {
+    padding: 20px 45px !important;
+}
+
+.payment-modals.main-modal .modal-content .modal-body .form-group {
+    margin-bottom: 30px;
+}
+
+.payment-modals.main-modal .modal-content .modal-body .StripeElement {
+    margin-bottom: 30px;
+}
+@media (max-width: 1600px){
+    .order-table-page table thead tr th, 
+    .order-table-page table thead tr td, 
+    .order-table-page table tbody tr th, 
+    .order-table-page table tbody tr td {
+        font-size: 11px;
+    }
+}
+@media (max-width: 1450px){
+    .order-table-page table thead tr th, 
+    .order-table-page table thead tr td, 
+    .order-table-page table tbody tr th, 
+    .order-table-page table tbody tr td {
+        font-size: 10px;
+        padding: 5px;
+    }
+}
+
+@media (max-width:  580px){
+    .banner-details .user-box {
+        width: calc(50% - 0px);
+    }
+}
+@media (max-width:  480px){
+    .banner-details .user-box {
+        width: calc(100% - 0px);
+    }
+    .modal-content .modal-header .modal-title h2, .login-page .login-form .login-title{
+        font-size: 24px !important;
+    }
+}

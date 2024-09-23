@@ -1,0 +1,4 @@
+table tbody tr td select, table tbody tr th select {
+    border-radius: 35px;
+    padding: 3px 10px;
+}

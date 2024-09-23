@@ -1,0 +1,271 @@
+.chart-container.combined-chart .dashboard-top {
+  position: relative;
+  margin-bottom: 15px;
+}
+
+.chart-container.combined-chart .dashboard-top .chart-title .group-form,
+.main-panel>.content.create-banner-page .form-group {
+  position: relative;
+  margin-bottom: 20px;
+  width: 100%;
+  margin-right: 25px;
+}
+
+.chart-container.combined-chart .dashboard-top .chart-title .group-form label,
+.main-panel>.content.create-banner-page .form-group label {
+  display: block;
+  width: 100%;
+  color: #fff;
+  font-size: 13px;
+}
+
+.chart-container.combined-chart .dashboard-top .chart-title .group-form input, 
+.chart-container.combined-chart .dashboard-top .chart-title .group-form .MuiSelect-select,
+.main-panel>.content.create-banner-page .form-group input,
+.main-panel>.content.create-banner-page .form-group .MuiInputBase-root {
+  border: 1px solid #ffffff40;
+  border-radius: 7px;
+  background-color: #00f3ff40;
+  color: #fff !important;
+  height: auto;
+  text-transform: capitalize;
+  width: 100%;
+  padding: 8px;
+  font-size: 14px;
+  font-style: normal;
+}
+.main-panel>.content.create-banner-page .form-group .MuiInputBase-root .MuiSelect-select{
+  padding: 0;
+}
+.main-panel>.content.create-banner-page .form-group input::placeholder{
+  color: #ffffff60;
+}
+.chart-container.combined-chart .dashboard-top .chart-title .group-form .react-datepicker-wrapper {
+  width: 100%;
+}
+
+.chart-container.combined-chart .dashboard-top .chart-title .group-form .MuiInputBase-root {
+  width: 100%;
+}
+
+.chart-container.combined-chart .dashboard-top .chart-title .group-form .MuiInputBase-root svg,
+.main-panel>.content.create-banner-page .form-group .MuiInputBase-root svg {
+  fill: #fff;
+}
+
+.chart-container.combined-chart .dashboard-top .chart-title .group-form .MuiSelect-select em {
+  font-style: normal;
+}
+.chart-container.combined-chart .dashboard-top .chart-title {
+align-items: center;
+}
+
+.chart-container.combined-chart .dashboard-top .chart-title .group-form.btn-group {
+margin-right: 0;
+display: flex;
+justify-content: flex-end;
+align-items: center;
+margin-top: 20px;
+width: 229px;
+}
+.adv-chart-item {
+  background-color: #fff;
+  border-radius: 9px;
+  margin-bottom: 15px;
+}
+.stats-chart-page .col-lg-6,
+.stats-chart-page .col-lg-8,
+.stats-chart-page .col-lg-12,
+.stats-chart-page .col-lg-4 {
+  padding: 0 7.5px;
+}
+.adv-chart-item .value-title {
+  position: relative;
+  background-color: #f5f5f5;
+  padding: 14px 15px;
+  border-radius: 8px 8px 0 0;
+}
+
+.adv-chart-item .value-title h1.heading {
+  margin-bottom: 0;
+  font-size: 16px;
+  font-weight: 600;
+}
+.adv-chart-item .chart-detail {
+  position: relative;
+  padding: 0 15px;
+}
+
+.tabs-box .form .react-tabs .react-tabs__tab-list {
+  display: flex;
+  justify-content: space-between;
+  background-color: #ffffff10;
+}
+.tabs-box .form .react-tabs .react-tabs__tab-list .react-tabs__tab {
+    width: 100%;
+    text-align: center;
+    border: none;
+    border-bottom: 1px solid transparent;
+    border-radius: 0;
+    font-size: 16px;
+}
+
+.tabs-box .form .react-tabs .react-tabs__tab-list .react-tabs__tab--selected {
+    background-color: #22d8c320 !important;
+    box-shadow: none;
+    border-bottom: 1px solid #22d8c3;
+}
+
+.tabs-box .form .react-tabs .react-tabs__tab-list .react-tabs__tab:focus:after {
+    display: none;
+}
+.adv-chart-item .chart-detail .heading-area {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 18px 23px 0;
+}
+
+.adv-chart-item .chart-detail .heading-area h2 {
+  margin-bottom: 0;
+  color: #000;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.adv-chart-item .chart-detail .heading-area h2 span {
+  display: block;
+  font-size: 14px;
+  font-weight: 400;
+}
+.adv-chart-item .chart-detail.expand-box {
+  padding: 25px;
+  min-height: 380px;
+}
+
+.adv-chart-item .chart-detail.expand-box p {
+  color: #000;
+}
+.adv-chart-item .chart-detail.table-data {
+  padding: 25px 15px;
+}
+
+.adv-chart-item .chart-detail.table-data .heading-area {
+  padding: 0px 0 15px;
+}
+
+.chart-area.item-chart.adv-chart-item table thead tr th, 
+.chart-area.item-chart.adv-chart-item table tbody tr td {
+    text-align: center;
+}
+
+.chart-area.item-chart.adv-chart-item table thead tr th:first-child, 
+.chart-area.item-chart.adv-chart-item table tbody tr td:first-child {
+    text-align: left;
+}
+.adv-chart-item .chart-detail .heading-area.top-main-chart {
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+
+.adv-chart-item .chart-detail .heading-area.top-main-chart h2 {
+  width: 100%;
+  margin-bottom: 10px;
+}
+.adv-chart-item .chart-detail .heading-area.top-main-chart h2.price-area {
+  margin-bottom: 0;
+  width: 25%;
+}
+
+.adv-chart-item .chart-detail .heading-area.top-main-chart h2:nth-child(2) {
+  padding-left: 84px;
+}
+
+.adv-chart-item .chart-detail .heading-area.top-main-chart h2:nth-child(3) {
+  padding-left: 101px;
+}
+
+.adv-chart-item .chart-detail .heading-area.top-main-chart h2:nth-child(4) {
+  padding-left: 149px;
+}
+
+.adv-chart-item .chart-detail .heading-area.top-main-chart h2:nth-child(5) {
+  padding-left: 144px;
+}
+.adv-chart-item .chart-detail.table-data .MuiTableContainer-root {
+  height: 367px;
+}
+.content.create-banner-page .MuiPaper-root .MuiCollapse-root .MuiCollapse-wrapper .MuiCollapse-wrapperInner .MuiAccordion-region .MuiAccordionDetails-root .account-box .account-detail .form-group input[type="email"], 
+.content.create-banner-page .MuiPaper-root .MuiCollapse-root .MuiCollapse-wrapper .MuiCollapse-wrapperInner .MuiAccordion-region .MuiAccordionDetails-root .account-box .account-detail .form-group input[type="phoneNumber"],
+.content.create-banner-page .MuiPaper-root .MuiCollapse-root .MuiCollapse-wrapper .MuiCollapse-wrapperInner .MuiAccordion-region .MuiAccordionDetails-root .account-box .account-detail .form-group input#Address {
+  text-transform: none;
+}
+
+@media only screen and (max-width: 1400px){
+  .adv-chart-item .chart-detail .heading-area.top-main-chart h2:nth-child(2) {
+    padding-left: 68px;
+  }
+  .adv-chart-item .chart-detail .heading-area.top-main-chart h2:nth-child(3) {
+    padding-left: 87px;
+  }
+  .adv-chart-item .chart-detail .heading-area.top-main-chart h2:nth-child(4) {
+    padding-left: 120px;
+  }
+  .adv-chart-item .chart-detail .heading-area.top-main-chart h2:nth-child(5) {
+    padding-left: 113px;
+  }
+}
+@media only screen and (max-width: 1280px){
+  .adv-chart-item .chart-detail .heading-area.top-main-chart h2:nth-child(2) {
+    padding-left: 48px;
+  }
+  .adv-chart-item .chart-detail .heading-area.top-main-chart h2:nth-child(3) {
+    padding-left: 67px;
+  }
+  .adv-chart-item .chart-detail .heading-area.top-main-chart h2:nth-child(4) {
+    padding-left: 100px;
+  }
+  .adv-chart-item .chart-detail .heading-area.top-main-chart h2:nth-child(5) {
+    padding-left: 93px;
+  }
+}
+@media only screen and (max-width: 991px){
+  .adv-chart-item .chart-detail .heading-area.top-main-chart h2:nth-child(2) {
+    padding-left: 0;
+    text-align: center;
+  }
+  .adv-chart-item .chart-detail .heading-area.top-main-chart h2:nth-child(3) {
+    padding-left: 0;
+    text-align: center;
+  }
+  .adv-chart-item .chart-detail .heading-area.top-main-chart h2:nth-child(4) {
+    padding-left: 0;
+    text-align: center;
+  }
+  .adv-chart-item .chart-detail .heading-area.top-main-chart h2:nth-child(5) {
+    padding-left: 0;
+    text-align: center;
+  }
+}
+@media only screen and (max-width: 480px){
+  .chart-container.combined-chart .dashboard-top .chart-title {
+      justify-content: center;
+      flex-wrap: wrap;
+  }
+  .chart-container.combined-chart .dashboard-top .chart-title .group-form {
+      width: 43%;
+      margin-right: 15px;
+  }
+  .chart-container.combined-chart .dashboard-top .chart-title .group-form.btn-group {
+      justify-content: center;
+      align-items: center;
+      margin-top: 20px;
+      width: 100%;
+  } 
+  .adv-chart-item .chart-detail .heading-area.top-main-chart h2.price-area {
+    font-size: 14px;
+  }
+  .adv-chart-item .chart-detail .heading-area h2 span {
+    font-size: 8px;
+  }
+}

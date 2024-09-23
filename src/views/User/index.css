@@ -1,0 +1,41 @@
+.chart-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.chart {
+  width: 200px;
+  height: 200px;
+  margin-right: 20px;
+}
+
+.table-container {
+  flex-grow: 1;
+}
+
+.main-container-heading {
+  margin-bottom: 0;
+  margin-right: 10px;
+}
+
+.add-btn {
+  margin-bottom: 0;
+  margin-top: 10px;
+  margin-right: 10px;
+}
+
+.All-Users {
+  display: block !important;
+  justify-content: space-between;
+}
+
+.table-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.chart-label {
+  text-align: center;
+  margin-top: 10px;
+}

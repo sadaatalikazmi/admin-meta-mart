@@ -1,0 +1,212 @@
+@-webkit-keyframes Animation {
+  0% {
+    background-position: 10% 0%;
+  }
+
+  50% {
+    background-position: 91% 100%
+  }
+
+  100% {
+    background-position: 10% 0%
+  }
+}
+
+@-moz-keyframes Animation {
+  0% {
+    background-position: 10% 0%
+  }
+
+  50% {
+    background-position: 91% 100%
+  }
+
+  100% {
+    background-position: 10% 0%
+  }
+}
+
+@keyframes Animation {
+  0% {
+    background-position: 10% 0%
+  }
+
+  50% {
+    background-position: 91% 100%
+  }
+
+  100% {
+    background-position: 10% 0%
+  }
+}
+
+@-moz-keyframes autofill {
+  100% {
+    background: transparent !important;
+    color: inherit !important;
+  }
+}
+
+.login-page {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  min-height: 100vh;
+  position: relative;
+  background-color: #1E1E2F;
+  overflow-x: hidden;
+}
+
+.login-page .login-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-page .login-img img {
+  width: 65%;
+  background: #ffffff;
+  border-radius: 15px;
+  padding: 30px 50px;
+  box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+
+.login-page .bg-login {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  filter: blur(8px);
+  -webkit-filter: blur(8px);
+}
+
+.login-page .bg-login:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0 0 0 / 30%);
+}
+
+.hover-btn {
+  transition: all 0.3s ease-in-out;
+}
+
+.hover-btn:hover {
+  box-shadow: 6px 6px 0px rgb(0 0 0 / 30%);
+}
+
+.login-page .login-form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  background: #228e92;
+  background: linear-gradient(0deg, #228e92 0%, #282a37 100%);
+  background-size: 200% 200%;
+  -webkit-animation: Animation 15s ease infinite;
+  -moz-animation: Animation 15s ease infinite;
+  animation: Animation 15s ease infinite;
+  border-radius: 18px;
+  padding: 50px 40px;
+  position: relative;
+  box-shadow: 0 0 20px rgb(0 0 0 / 30%);
+}
+
+.login-page .login-form .login-page-logo {
+  width: 40%;
+  display: block;
+  margin-bottom: 30px;
+}
+
+.login-page .login-form .login-title {
+  display: block;
+  width: 100%;
+  text-align: center;
+  margin-top: 23px;
+  font-size: 35px;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #fff !important;
+}
+
+.login-page .login-form .login-field {
+  width: 100%;
+  margin-bottom: 40px;
+}
+
+.login-page .login-form .validator-form {
+  width: 100%;
+  padding: 0 30px;
+  text-align: center;
+}
+
+.login-page .login-form .MuiInputBase-root {
+  color: #fff !important;
+}
+
+.login-page .login-form .validator-form label {
+  color: #fff !important;
+}
+
+.login-page .login-form .validator-form .MuiInput-underline:before,
+.login-page .login-form .validator-form .MuiInput-underline:after {
+  border-bottom: 1px solid #fff !important;
+}
+
+.login-page .login-form .validator-form .login-btn {
+  width: 55%;
+  background-color: #fff;
+  padding: 15px 35px;
+  border-radius: 35px;
+  margin: 0 auto 50px;
+  box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+
+.login-page input:-webkit-autofill,
+.login-page input:-webkit-autofill:hover,
+.login-page input:-webkit-autofill:focus,
+.login-page input:-webkit-autofill:active {
+  transition: background-color 5000s ease-in-out 0s !important;
+  -webkit-text-fill-color: #fff !important;
+}
+
+.login-page .login-form .validator-form .login-btn.loginmetamask-btn {
+  margin-top: 38px;
+  position: relative;
+}
+
+.login-page .login-form .validator-form .login-btn.loginmetamask-btn:before {
+  content: "";
+  position: absolute;
+  left: -63%;
+  top: -36px;
+  width: 223%;
+  height: 1px;
+  background-color: rgba(255 255 255 / 20%);
+}
+.login-page .login-form p {
+  color: #fff !important;
+}
+
+.login-page .login-form p a.register-link {
+  color: #22d8c3 !important;
+}
+@media only screen and (max-width: 600px) {
+  .login-page .login-form {
+    padding: 30px 20px;
+  }
+}
+
+@media only screen and (max-width: 370px) {
+  .login-page .login-form .validator-form .login-btn.loginmetamask-btn:before {
+    left: -27%;
+    width: 152%;
+  }
+}

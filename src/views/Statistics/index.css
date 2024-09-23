@@ -1,0 +1,1345 @@
+.order-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.order-box {
+  margin-bottom: 20px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  background-color: #f7f7f7;
+}
+
+.order-box h3 {
+  margin-top: 0;
+  color: black;
+}
+
+.chart-container {
+  flex-basis: 100%;
+  /* width: 49%; */
+  /* max-width: 49%; */
+  margin: 30px auto;
+  background-color: white;
+  padding: 3em;
+  border-radius: 15px;
+  display: block !important;
+}
+
+
+.timeline-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  font-size: 10px;
+  /* margin-top: 20px; */
+}
+
+.table-container {
+  margin-top: 20px;
+}
+
+.table-container table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.table-container th,
+.table-container td {
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+.table-container th {
+  background-color: #f2f2f2;
+}
+
+.table-container tbody tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.pie-chart-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  border-radius: 10px;
+  padding-top: 35px;
+  padding: 0px 35px;
+  width: 29%;
+  height: 480px;
+  flex-grow: 1;
+}
+
+.bar-chat-container {
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 25px;
+  margin: 30px auto;
+  /* width: 49%; */
+  flex-basis: 100%;
+}
+
+.top-bar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+.top-box {
+  background-color: #fff;
+  border-radius: 15px;
+  padding: 2rem 3rem;
+  width: calc(24% - 0px);
+}
+
+.heading {
+  color: black;
+  font-size: 1.1rem;
+  font-weight: 400 !important;
+}
+
+.heading2 {
+  color: black;
+  font-size: 20px;
+  font-weight: 600 !important;
+  margin-bottom: 0;
+}
+
+.box-h3 {
+  color: black;
+  font-size: 16px;
+  font-weight: 600 !important;
+  margin: 0px;
+  padding: 0px;
+  text-align: center;
+}
+
+.box-counter {
+  text-align: center;
+  font-size: 22px;
+  padding-top: 10px;
+}
+
+.box-p {
+  font-size: 10px;
+  text-align: center;
+}
+
+.sales {
+  color: rgb(184, 68, 68) !important;
+  font-weight: 600;
+}
+
+.filter-buttons {
+  display: flex;
+  justify-content: center;
+}
+
+.filter-buttons .filter-button,
+.timeline-buttons .filter-button {
+  margin: 5px 5px !important;
+  background-color: white !important;
+  border-width: 1px !important;
+  border-radius: 25px !important;
+  padding: 6px 17px !important;
+  font-size: 11px !important;
+  transition: all 0.3s ease-in-out;
+}
+
+.filter-buttons .filter-button {
+  border-radius: 8px !important;
+}
+
+.timeline-buttons .filter-button.active,
+.filter-buttons .filter-button.active,
+.timeline-buttons .filter-button:hover,
+.filter-buttons .filter-button:hover {
+  /* Styles for the active filter button */
+  color: #fff !important;
+  background-color: #22d8c3 !important;
+  border: 1px solid#22d8c3 !important;
+  box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.35) inset;
+}
+
+.charts {
+  display: flex;
+  grid-gap: 16px;
+  grid-gap: 16px;
+  gap: 16px;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.spending {
+  background-color: white;
+  margin-top: 20px;
+  padding: 50px;
+  border-radius: 15px;
+}
+
+.spending h3 {
+  color: black;
+  font-weight: 600;
+}
+
+.table-container th,
+.table-container td {
+  padding: 10px;
+  color: black;
+  background-color: white;
+}
+
+.sales-icon {
+  color: black;
+  text-align: center;
+}
+
+.new-customer-box {
+  background-color: white;
+  padding: 50px;
+  border-radius: 15px;
+  width: 100%;
+  height: 480px;
+  flex-grow: 1;
+}
+
+.new-customer-box h3 {
+  color: black;
+  font-weight: 600;
+}
+
+.radar-chart-container {
+  max-width: 400px;
+  /* Adjust the maximum width as per your preference */
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.second-bar {
+  display: flex;
+  justify-content: space-between;
+}
+
+.bottom-box {
+  display: flex;
+  gap: 16px;
+  grid-gap: 16px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.hot-product {
+  padding: 50px;
+  background-color: white;
+  width: calc(25% - 8px);
+  border-radius: 15px;
+}
+
+.inner-section {
+  display: flex;
+  justify-content: space-between;
+}
+
+.hot-product h3 {
+  color: black;
+  font-weight: 600;
+}
+
+.hot-product-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 1rem;
+}
+
+.hot-products {
+  margin-top: 1.5rem;
+  width: 100%;
+  position: relative;
+  display: block;
+}
+
+.hot-products>h3 {
+  margin-bottom: 1.5rem;
+}
+
+.hot-product {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  border: 1px solid #f5f5f5;
+  padding: 10px;
+  max-width: calc(25% - 0px);
+  background-color: #f5f5f5;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.25), 0 2px 8px rgba(0, 0, 0, 0.25), inset 0px 0px 0px 1px rgba(255, 255, 255, 0.1);
+}
+
+.ranking {
+  background-color: #22d8c3;
+  color: #fff;
+  border-radius: 50%;
+  position: absolute;
+  top: 25px;
+  left: 25px;
+  width: 20px;
+  height: 20px;
+  text-align: center;
+  font-size: 11px;
+  line-height: 20px;
+  color: #fff;
+}
+
+.product-image {
+  max-width: 100%;
+  max-height: 200px;
+  background-color: #fff;
+  margin-bottom: 11px;
+  border-radius: 8px;
+}
+
+.hot-products .MuiButtonBase-root p {
+  text-transform: capitalize;
+  font-weight: 500;
+  font-size: 17px;
+}
+
+.hot-products .MuiButtonBase-root {
+  background-color: #f5f5f5;
+}
+
+.product-details {
+  position: relative;
+}
+
+.product-details h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+  text-transform: capitalize;
+}
+
+.MuiAccordionDetails-root {
+  padding: 16px 25px 32px !important;
+}
+
+.product-details .list-detail {
+  list-style: none;
+  padding: 0;
+  margin: 10px 0;
+}
+
+.product-details .list-detail li {
+  color: #00000095;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #00000010;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+}
+
+.product-details .list-detail li span {
+  text-transform: capitalize;
+}
+
+.product-details .list-detail li:last-child {
+  border-bottom: none;
+  padding: 0;
+  margin: 0;
+}
+
+.comined-chart {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.comined-chart .dropdown-checkbox {
+  background-color: transparent;
+  position: relative;
+  padding: 0;
+  border-radius: 0;
+  width: 17.33%;
+  box-shadow: none;
+}
+
+.comined-chart .dropdown-checkbox.orders-filters,
+.comined-chart .dropdown-checkbox.earnings-filters {
+  background-color: #f5f5f5;
+  position: relative;
+  padding: 9px 15px;
+  border-radius: 19px;
+  width: 17.33%;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.25), 0 2px 5px rgba(0, 0, 0, 0.25), inset 0px 0px 0px 1px rgba(255, 255, 255, 0.1);
+}
+
+.comined-chart .dropdown-checkbox svg {
+  position: absolute;
+  right: 7px;
+}
+
+.comined-chart .dropdown-checkbox .dropdown-customers {
+  padding: 0;
+  margin: 0;
+  top: 27px;
+}
+
+.comined-chart .dropdown-checkbox .dropdown-customers .MuiSelect-select {
+  font-size: 13px;
+  border-radius: 4px;
+  border: 1px solid #f5f5f5;
+  background-color: #f5f5f5;
+  color: #000;
+  box-shadow: 0 0 5px rgba(0 0 0 / 20%);
+  padding: 7px 21px 7px 7px;
+  min-width: 110px;
+}
+
+.comined-chart .dropdown-checkbox .dropdown-customers .MuiFormControl-root {
+  position: relative;
+}
+
+.comined-chart .dropdown-checkbox .dropdown-customers .MuiFormControl-root svg {
+  position: absolute;
+  right: 0;
+}
+
+.MuiMenu-list {
+  border-radius: 4px;
+  border: 1px solid #f5f5f5 !important;
+  background-color: #f5f5f5 !important;
+  color: #000 !important;
+}
+
+ul.MuiMenu-list {
+  margin: 0 auto;
+  position: relative;
+  z-index: 999;
+}
+
+ul.MuiMenu-list .combine-chart-item {
+  position: relative;
+  font-size: 13px;
+  min-width: 110px;
+}
+
+.comined-chart button {
+  margin: 5px 5px !important;
+  color: #fff !important;
+  background-color: #22d8c3 !important;
+  border-color: #22d8c3;
+  border-width: 1px !important;
+  border-radius: 15px !important;
+  padding: 6px 17px !important;
+  font-size: 11px !important;
+  transition: all 0.3s ease-in-out;
+  box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.35) inset;
+  border: 1px solid #22d8c3;
+}
+
+.comined-chart button:hover {
+  color: #1e1e2f !important;
+  background-color: #fff !important;
+  border-color: #1e1e2f;
+}
+
+.comined-chart .dropdown-checkbox>div:hover {
+  color: #000;
+}
+
+.comined-chart .dropdown-checkbox>div {
+  transition: all 0.3s ease-in-out;
+}
+
+.chartjs-render-monitor {
+  padding: 25px 0;
+}
+
+.top-heading-area {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 10px 7px 19px 0;
+}
+.value-title h2.heading {
+  color: #fff;
+  margin-bottom: 20px;
+}
+.top-heading-area h3 {
+  margin-bottom: 0;
+}
+
+.btn-style-one {
+  background-color: #22d8c3;
+  border: 1px solid #22d8c3;
+  padding: 0.4rem 1rem;
+  font-size: 12px;
+  color: #fff;
+  border-radius: 34px;
+  transition: all 0.3s ease-in-out;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.35) inset;
+}
+
+.btn-style-one:hover {
+  background-color: #fff;
+  border: 1px solid #22d8c3;
+  color: #22d8c3;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0) inset;
+}
+
+.home-header .btn-style-one:hover {
+  background-color: transparent;
+  border: 1px solid #fff;
+  color: #fff;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.5);
+}
+
+.top-heading-area .btn-group button {
+  margin-left: 9px;
+}
+
+.btn-style-two {
+  background-color: #fff;
+  border: 1px solid #22d8c3;
+  padding: 0.4rem 1.5rem;
+  font-size: 12px;
+  color: #22d8c3;
+  border-radius: 34px;
+  transition: all 0.3s ease-in-out;
+}
+
+.btn-style-two:hover {
+  background-color: #22d8c3;
+  border: 1px solid #22d8c3;
+  color: #fff;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.35) inset;
+}
+
+.top-heading-area.home-header h3 {
+  color: rgba(255, 255, 255, 0.8) !important;
+}
+
+.top-heading-area h3 {
+  color: #000 !important;
+  font-size: 21px;
+  font-weight: 600;
+}
+
+.comined-chart .dropdown-checkbox.earnings-filters .dropdown-customers,
+.comined-chart .dropdown-checkbox.orders-filters .dropdown-customers {
+  margin-top: 14px;
+  left: 0;
+  width: 100%;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.25), 0 2px 5px rgba(0, 0, 0, 0.25), inset 0px 0px 0px 1px rgba(255, 255, 255, 0.1);
+  border-radius: 8px;
+  text-align: left;
+}
+
+.comined-chart .dropdown-checkbox.earnings-filters .dropdown-customers .list,
+.comined-chart .dropdown-checkbox.orders-filters .dropdown-customers .list {
+  position: relative;
+  background-color: #f5f5f5;
+  padding: 6px 10px 0 16px;
+  border-radius: 0;
+  width: 100%;
+}
+
+.comined-chart .dropdown-checkbox.earnings-filters .dropdown-customers .list label,
+.comined-chart .dropdown-checkbox.orders-filters .dropdown-customers .list label {
+  position: relative;
+  margin: 0 0 13px;
+}
+
+.comined-chart .dropdown-checkbox.earnings-filters .dropdown-customers .list label span,
+.comined-chart .dropdown-checkbox.orders-filters .dropdown-customers .list label span {
+  font-size: 13px;
+}
+
+.comined-chart .dropdown-checkbox.earnings-filters .dropdown-customers .list label .MuiCheckbox-root svg,
+.comined-chart .dropdown-checkbox.orders-filters .dropdown-customers .list label .MuiCheckbox-root svg {
+  width: 15px;
+}
+
+.comined-chart .dropdown-checkbox.earnings-filters .dropdown-customers .list:nth-child(1) label .MuiCheckbox-root {
+  color: #0074d9;
+}
+
+.comined-chart .dropdown-checkbox.earnings-filters .dropdown-customers .list:nth-child(2) label .MuiCheckbox-root {
+  color: #2ecc40;
+}
+
+.comined-chart .dropdown-checkbox.earnings-filters .dropdown-customers .list:nth-child(3) label .MuiCheckbox-root {
+  color: #ff4136;
+}
+
+.comined-chart .dropdown-checkbox.earnings-filters .dropdown-customers .list:nth-child(4) label .MuiCheckbox-root {
+  color: #b10dc9;
+}
+
+.comined-chart .dropdown-checkbox.earnings-filters .dropdown-customers .list:nth-child(5) label .MuiCheckbox-root {
+  color: #ff851b;
+}
+
+.comined-chart .dropdown-checkbox.earnings-filters .dropdown-customers .list:nth-child(6) label .MuiCheckbox-root {
+  color: #39cccc;
+}
+
+.comined-chart .dropdown-checkbox.earnings-filters .dropdown-customers .list:nth-child(7) label .MuiCheckbox-root {
+  color: #ffdc00;
+}
+
+.comined-chart .dropdown-checkbox.earnings-filters .dropdown-customers .list:nth-child(8) label .MuiCheckbox-root {
+  color: #f012be;
+}
+
+.comined-chart .dropdown-checkbox.earnings-filters .dropdown-customers .list:nth-child(9) label .MuiCheckbox-root {
+  color: #aaaaaa;
+}
+
+.comined-chart .dropdown-checkbox.orders-filters .dropdown-customers .list:nth-child(1) label .MuiCheckbox-root {
+  color: #0074d9;
+}
+
+.comined-chart .dropdown-checkbox.orders-filters .dropdown-customers .list:nth-child(2) label .MuiCheckbox-root {
+  color: #2ecc40;
+}
+
+.comined-chart .dropdown-checkbox.orders-filters .dropdown-customers .list:nth-child(3) label .MuiCheckbox-root {
+  color: #ff4136;
+}
+
+.comined-chart .dropdown-checkbox.orders-filters .dropdown-customers .list:nth-child(4) label .MuiCheckbox-root {
+  color: #b10dc9;
+}
+
+.chart-title .chart-selector .radio-btn {
+  margin: 0 0 0 20px;
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 15px;
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+.chart-title .chart-selector .radio-btn input[type="radio"] {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+.checkmark {
+  position: absolute;
+  top: 2px;
+  left: 7px;
+  height: 20px;
+  width: 20px;
+  background-color: #eee;
+  border-radius: 50%;
+}
+
+/* On mouse-over, add a grey background color */
+.chart-title .chart-selector .radio-btn:hover input~.checkmark {
+  background-color: #ccc;
+}
+
+/* When the checkbox is checked, add a blue background */
+.chart-title .chart-selector .radio-btn input:checked~.checkmark {
+  background-color: #22d8c3 !important;
+  border: 1px solid#22d8c3 !important;
+  box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.35) inset;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the checkmark when checked */
+.chart-title .chart-selector .radio-btn input:checked~.checkmark:after {
+  display: block;
+}
+
+/* Style the checkmark/indicator */
+.chart-title .chart-selector .radio-btn .checkmark:after {
+  left: 7px;
+  top: 4px;
+  width: 5px;
+  height: 8px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.comined-chart .dropdown-checkbox.filters-dropdown {
+  margin-top: -52px;
+}
+
+.comined-chart .dropdown-checkbox.filters-dropdown .dropdown-customers {
+  width: 100%;
+  display: block;
+  position: relative;
+}
+
+.comined-chart .dropdown-checkbox.filters-dropdown .dropdown-customers .MuiFormControl-root {
+  background-color: #f5f5f5;
+  position: relative;
+  width: 100%;
+  padding: 0px 14px;
+  border-radius: 19px;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.25), 0 2px 5px rgba(0, 0, 0, 0.25), inset 0px 0px 0px 1px rgba(255, 255, 255, 0.1);
+}
+
+.comined-chart .dropdown-checkbox.filters-dropdown .dropdown-customers .MuiFormControl-root .MuiInputBase-root svg {
+  right: -8px;
+}
+
+.comined-chart .dropdown-checkbox.filters-dropdown .dropdown-customers .MuiFormControl-root .MuiInputBase-root {
+  box-shadow: none !important;
+}
+
+.comined-chart .dropdown-checkbox.filters-dropdown .dropdown-customers .MuiFormControl-root .MuiInputBase-root .MuiSelect-select {
+  box-shadow: none;
+  width: 100%;
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #525f7f;
+  text-align: left;
+}
+
+.comined-chart .dropdown-checkbox.filters-dropdown .dropdown-customers .MuiFormControl-root label {
+  color: #000 !important;
+}
+
+.react-tabs .react-tabs__tab-list {
+  border-bottom: none;
+  margin-bottom: 30px;
+}
+
+.react-tabs .react-tabs__tab-list .react-tabs__tab {
+  color: #fff;
+  bottom: 0;
+  border: 1px solid #22d8c3;
+  border-radius: 15px;
+  padding: 0.4rem 1rem;
+  margin-right: 7px;
+  font-size: 11px;
+}
+
+.react-tabs .react-tabs__tab-list .react-tabs__tab--selected {
+  color: #fff;
+  background-color: #22d8c3;
+  box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.35) inset;
+  border: 1px solid #22d8c3;
+}
+
+.chart-container.combined-chart {
+  background-color: transparent;
+  padding: 0;
+  margin: 30px auto 0;
+}
+
+.chart-container.combined-chart .react-tabs__tab-panel {
+  position: relative;
+}
+
+.chart-container.combined-chart .react-tabs__tab-panel .col-lg-6 {
+  padding-right: 7.5px;
+  padding-left: 7.5px;
+}
+
+.chart-container.combined-chart .react-tabs__tab-panel .chart-area.item-chart .value-title {
+  margin: 0;
+  background-color: #f5f5f5;
+  padding: 6px 15px 7px;
+  border-radius: 8px 8px 0 0;
+}
+
+.chart-container.combined-chart .react-tabs__tab-panel .chart-area .group-form label {
+  margin-bottom: 2px;
+}
+
+.chart-container.combined-chart .react-tabs__tab-panel .chart-area.item-chart .chart-title {
+  padding: 0px 15px 11px;
+  border-radius: 0;
+}
+
+.chart-container.combined-chart .react-tabs__tab-panel .chart-area .comined-chart.sub-category.group-form {
+  width: 234px;
+  font-size: 9px;
+  padding: 0;
+  margin-top: 3px;
+}
+
+.chart-box {
+  position: relative;
+  box-sizing: border-box;
+  padding: 0 10px 0 0;
+}
+
+text {
+  font-size: 10px;
+}
+
+.chart-container.combined-chart .react-tabs__tab-panel .chart-area {
+  margin: 0 0 1rem;
+  background-color: white;
+  padding: 0;
+  border-radius: 8px;
+  display: block !important;
+}
+
+.chart-container .react-tabs__tab-panel .chart-area .chart-title {
+  padding: 12px 20px;
+  width: 100%;
+  background-color: #f5f5f5;
+  border-radius: 10px 10px 0 0;
+}
+
+.chart-container.combined-chart .react-tabs__tab-panel .chart-area .group-form {
+  position: relative;
+  margin: 0 7px;
+}
+
+.chart-container.combined-chart .react-tabs__tab-panel .chart-area .group-form label {
+  font-weight: 600;
+  margin-right: 10px;
+  margin-bottom: 4px;
+  font-size: 10px;
+}
+
+.chart-container.combined-chart .react-tabs__tab-panel .chart-area .comined-chart.sub-category.group-form .dropdown-checkbox {
+  border: 1px solid #00000030;
+  border-radius: 7px !important;
+  padding: 0.44rem 1rem !important;
+  background-color: #00000010 !important;
+  color: #000 !important;
+  width: 100% !important;
+  text-align: center;
+  box-shadow: none !important;
+}
+
+.chart-container.combined-chart .react-tabs__tab-panel .chart-area .group-form input#topItemsPurchaseSubCategoryNumber,
+.chart-container.combined-chart .react-tabs__tab-panel .chart-area .group-form input#leastItemsPurchaseSubCategoryNumber {
+  width: 100px;
+}
+
+.chart-container .react-tabs__tab-panel .chart-area .chart-title h1.heading {
+  margin-bottom: 0;
+}
+
+.chart-container.combined-chart .react-tabs__tab-panel .chart-area .group-form.form-to-sales .btn-style-one {
+  margin-left: 35px;
+}
+
+.chart-container.combined-chart .react-tabs__tab-panel .chart-area .group-form input,
+.chart-container.combined-chart .react-tabs__tab-panel .chart-area .value-group .group-form select {
+  border: 1px solid #00000030;
+  border-radius: 7px;
+  padding: 0.4rem 1rem;
+  background-color: #00000010;
+  color: #000;
+  width: 100%;
+  text-align: center;
+  font-size: 10px;
+}
+
+.chart-container.combined-chart .react-tabs__tab-panel .chart-area .group-form.form-to-sales {
+  display: flex;
+  align-items: center;
+}
+
+.chart-container.combined-chart .react-tabs__tab-panel .chart-area .group-form.form-to-sales .form-to {
+  margin: 0 10px;
+}
+
+.chart-container.combined-chart .react-tabs__tab-panel .chart-area .value-group .group-form select {
+  width: 200px;
+  max-width: 100%;
+}
+
+.chart-container.combined-chart .react-tabs__tab-panel .chart-area .value-group {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.chart-container.combined-chart .react-tabs__tab-panel .chart-area .value-group .group-form {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.chart-container.combined-chart .react-tabs__tab-panel .chart-area .value-title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 13px;
+  width: 100%;
+  padding: 0;
+}
+
+.apexcharts-menu-item {
+  padding: 4px 7px !important;
+  font-size: 9px !important;
+  text-align: left !important;
+}
+
+.chart-container.combined-chart .react-tabs__tab-panel .chart-area .value-title .group-form {
+  margin: 0;
+}
+
+.chart-container.combined-chart .react-tabs__tab-panel .chart-area .value-title h1.heading {
+  margin-bottom: 0;
+}
+
+.bottom-sales-area .MuiButtonBase-root svg {
+  width: 10px;
+}
+
+.bottom-sales-area span.MuiTypography-root {
+  color: #000;
+  font-size: 10px;
+  font-weight: 600;
+}
+
+.bottom-sales-area {
+  margin-top: -30px;
+}
+
+.bottom-sales-area .sales-icon-chart span.MuiButtonBase-root {
+  position: relative;
+  opacity: 0.6;
+}
+
+.bottom-sales-area .sales-icon-chart span.MuiButtonBase-root svg {
+  position: relative;
+  fill: #7cb5ec;
+}
+
+.bottom-sales-area .sales-icon-chart span.MuiButtonBase-root:before {
+  content: "";
+  position: absolute;
+  left: 5.5px;
+  width: 57%;
+  height: 4px;
+  background-color: #7cb5ec;
+  top: 45.5%;
+  border-radius: 48px;
+}
+
+.bottom-sales-area .sales-icon-chart span.Mui-checked {
+  opacity: 1;
+}
+
+.bottom-sales-area .sales-icon-chart span.Mui-checked:before {
+  background-color: #7cb5ec;
+}
+
+.bottom-sales-area .sales-icon-chart span.Mui-checked svg {
+  fill: #7cb5ec;
+}
+
+.chart-container.combined-chart .react-tabs__tab-panel .chart-area .group-form .comined-chart {
+  width: 187px;
+  margin-top: 15px;
+}
+
+.chart-container.combined-chart .react-tabs__tab-panel .chart-area .group-form.products-group input {
+  width: auto;
+}
+
+.chart-container.combined-chart .react-tabs__tab-panel .chart-area .group-form.products-group label {
+  display: inline-block;
+  width: auto;
+}
+
+.chart-container.combined-chart .react-tabs__tab-panel .chart-area .group-form.products-group {
+  margin-top: 0;
+}
+
+.chart-container.combined-chart .react-tabs__tab-panel .chart-area .group-form .comined-chart .dropdown-checkbox.orders-filters {
+  width: 100% !important;
+}
+
+.chart-container.combined-chart .react-tabs__tab-panel .chart-area .group-form.products-group {
+  margin-top: 0;
+}
+
+.chart-home {
+  position: relative;
+  margin-bottom: 27px;
+}
+
+.chart-home .chart-title {
+  position: relative;
+  justify-content: end;
+}
+
+.chart-home .chart-title .group-form {
+  position: relative;
+  margin-right: 29px;
+}
+
+.chart-home .chart-title .group-form label {
+  margin-bottom: 0;
+  margin-right: 16px;
+  color: #fff;
+}
+
+.chart-home .chart-title .group-form input {
+  border: 1px solid #fff;
+  border-radius: 7px;
+  padding: 8px 15px;
+  background-color: #00f3ff20;
+  color: #fff;
+}
+
+.chart-container.combined-chart .react-tabs__tab-panel .chart-area .group-form.products-group label {
+  display: inline-block;
+  width: auto;
+}
+
+.chart-container.combined-chart .react-tabs__tab-panel .chart-area.sales-by-area-chart .group-form label {
+  display: inline-block;
+  width: auto;
+}
+
+.chart-container.combined-chart.demographics-page ul.react-tabs__tab-list {
+  display: none;
+}
+
+.chart-container.combined-chart .react-tabs__tab-panel .chart-area.sales-by-area-chart .group-form input#salesByAreaNumber {
+  width: auto;
+}
+
+.apexcharts-legend .apexcharts-legend-series .apexcharts-legend-marker {
+  border-radius: 50% !important;
+  margin-right: 7px;
+  top: -1px !important;
+  width: 7px !important;
+  height: 7px !important;
+}
+
+.chart-box-gender {
+  padding: 0 15px 0 8px;
+}
+
+.apexcharts-legend-text:hover {
+  color: #000 !important;
+}
+
+.chart-container.combined-chart .react-tabs__tab-panel .chart-area .group-form.products-group input {
+  width: auto;
+}
+
+.chart-container.combined-chart .react-tabs__tab-panel .chart-area .comined-chart.sub-category {
+  display: block;
+  width: 200px;
+  padding-left: 25px;
+}
+
+.apexcharts-legend {
+  flex-wrap: wrap;
+}
+
+.apexcharts-legend .apexcharts-legend-series {
+  width: 19%;
+}
+
+.chart-container.combined-chart .react-tabs__tab-panel .chart-area .comined-chart.sub-category .dropdown-checkbox.orders-filters {
+  width: 100%;
+}
+
+.react-datepicker-popper[data-placement^=bottom] {
+  z-index: 99;
+}
+.chart-height.categories-chart {
+  padding-bottom: 39px;
+}
+
+.chart-height.categories-chart .apexcharts-legend.apexcharts-align-left.apx-legend-position-bottom {
+  margin-bottom: -31px;
+}
+
+.bottom-sales-area.categories-bottom-sales.text-center {
+  margin: 0;
+  position: absolute;
+  bottom: 122px;
+  left: 84px;
+}
+.chart-box-gender.chart-box-gender-legend .apexcharts-legend.apexcharts-align-left.apx-legend-position-bottom {
+  margin: 0 0 -21px 0;
+  padding-bottom: 33px;
+}
+.bottom-sales-area.chart-box-gender-sales.text-center {
+  position: absolute;
+  bottom: 67px;
+  left: 91px;
+}
+.bottom-sales-area.chart-box-gender-sales-two.text-center {
+  position: absolute;
+  bottom: 42px;
+  left: 91px;
+}
+.bottom-sales-area.chart-box-gender-sales-two .MuiButtonBase-root svg,
+.bottom-sales-area.chart-box-gender-sales .MuiButtonBase-root svg,
+.bottom-sales-area.categories-bottom-sales .MuiButtonBase-root svg{
+  width: 9px;
+}
+@media (max-width: 1550px) {
+  .top-box {
+    width: calc(23% - -11px);
+  }
+}
+
+@media (max-width: 1460px) {
+  .top-box {
+    width: calc(23% - 0px);
+    padding: 24px 15px;
+  }
+  .apexcharts-legend .apexcharts-legend-series {
+    width: 22%;
+  }
+  .bottom-sales-area.categories-bottom-sales.text-center {
+      bottom: 147px;
+  }
+  .chart-container.combined-chart .react-tabs__tab-panel .chart-area .group-form label {
+    font-size: 12px;
+  }
+
+  .heading {
+    font-size: 1rem;
+  }
+
+  .chart-container .react-tabs__tab-panel .chart-area .chart-title h1.heading {
+    width: 68%;
+  }
+
+  .chart-container.combined-chart .react-tabs__tab-panel .chart-area .group-form input#topItemsPurchaseSubCategoryNumber,
+  .chart-container.combined-chart .react-tabs__tab-panel .chart-area .group-form input#leastItemsPurchaseSubCategoryNumber {
+    width: 72px;
+  }
+
+  .chart-container.combined-chart .react-tabs__tab-panel .chart-area .group-form label {
+    font-size: 9px;
+  }
+
+  .chart-container.combined-chart .react-tabs__tab-panel .chart-area .value-group .group-form select {
+    width: 200px;
+    max-width: 81%;
+  }
+}
+
+@media (max-width: 1199px) {
+
+  .chart-container,
+  .bar-chat-container {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .filter-buttons .filter-button,
+  .timeline-buttons .filter-button {
+    padding: 3px 10px !important;
+    margin: 3px !important;
+  }
+
+  .bar-chat-container {
+    margin-top: 0;
+  }
+
+  .bottom-box {
+    flex-wrap: wrap;
+  }
+
+  .pie-chart-container,
+  .new-customer-box {
+    width: 48%;
+  }
+
+  .hot-product {
+    width: 100%;
+    max-width: calc(50% - 0px);
+  }
+
+  .chart-container.combined-chart .react-tabs__tab-panel .chart-area .group-form {
+    position: relative;
+    margin: 0 7px 14px;
+  }
+}
+
+@media (max-width: 991px) {
+  .chart-container .react-tabs__tab-panel .chart-area .chart-title h1.heading {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 17px;
+  }
+  .bottom-sales-area.chart-box-gender-sales-two.text-center {
+      bottom: 68px;
+  }
+  .bottom-sales-area.chart-box-gender-sales.text-center {
+      bottom: 91px;
+  }
+  .apexcharts-legend .apexcharts-legend-series {
+    width: 32%;
+  }
+  .chart-container .react-tabs__tab-panel .chart-area .chart-title {
+    width: 100%;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+}
+
+@media (max-width: 767px) {
+  .order-box {
+    flex-basis: 100%;
+  }
+
+  .top-box {
+    width: calc(48% - 0px);
+  }
+
+  .chart-container.combined-chart .react-tabs__tab-panel {
+    max-height: 100%;
+    overflow-y: auto;
+    overflow-x: hidden;
+  }
+
+  .hot-product {
+    width: 100%;
+    max-width: calc(100% - 0px);
+  }
+}
+
+@media (max-width: 560px) {
+
+  .pie-chart-container,
+  .new-customer-box,
+  .hot-product,
+  .spending,
+  .chart-container,
+  .bar-chat-container {
+    width: 100%;
+    padding: 15px;
+  }
+
+  .heading,
+  h3,
+  .h3 {
+    font-size: 19px !important;
+  }
+
+  .chart-container.combined-chart .react-tabs__tab-panel .chart-area .group-form.form-to-sales {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+
+  .chart-container.combined-chart .react-tabs__tab-panel .chart-area .group-form.form-to-sales .form-to {
+    margin: 0 0 18px;
+    width: 100%;
+  }
+}
+
+@media (max-width: 460px) {
+  .top-box {
+    width: calc(46% - 0px);
+  }
+  .bottom-sales-area.chart-box-gender-sales-two.text-center {
+    bottom: 97px;
+  }
+  .apexcharts-legend .apexcharts-legend-series {
+      width: 100%;
+  }
+  .chart-container.combined-chart .react-tabs__tab-panel .chart-area .value-title {
+    justify-content: center;
+    margin-bottom: 9px;
+    width: 100%;
+    flex-wrap: wrap;
+  }
+
+  .chart-container.combined-chart .react-tabs__tab-panel .chart-area .value-title h1.heading {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+
+  .chart-container.combined-chart .react-tabs__tab-panel .chart-area .group-form {
+    position: relative;
+    margin: 0 7px 10px;
+    width: 100%;
+    text-align: center;
+  }
+
+  .chart-title {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  .chart-container.combined-chart .react-tabs__tab-panel .chart-area .group-form label {
+    font-size: 12px;
+    text-align: left;
+  }
+
+  .inner-section {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+  }
+
+  .ReactTable .rt-table .rt-thead .rt-tr .rt-th,
+  .table .rt-tbody .rt-td {
+    font-size: 13px;
+  }
+}
+
+@media (max-width: 400px) {
+  .top-box {
+    width: calc(100% - 0px);
+  }
+}
+
+.chart-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.chart-selector {
+  display: flex;
+}
+
+.radio-btn {
+  margin-inline: 10px;
+}
+
+.filter-lbl {
+  text-align: center;
+  font-weight: bold;
+}
+
+.dropdown-customers .css-1l1mqzp {
+  border: none;
+}

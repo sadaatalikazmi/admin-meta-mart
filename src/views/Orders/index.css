@@ -1,0 +1,61 @@
+.total,
+.vat,
+.net-amount {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.add-modal .img-box {
+    text-align: center;
+    height: 450px;
+    width: 100%;
+}
+.add-modal .img-box img {
+    width: 70%;
+    margin: 0 auto;
+    height: 100%;
+    object-fit: none;
+}
+.label {
+    color: white;
+}
+
+.value {
+    color: white;
+    font-weight: bold;
+    /* margin-bottom: 10px; */
+}
+
+.labels {
+    display: flex;
+    color: white;
+    margin-right: 1.5rem;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.values {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+}
+
+@media (max-width: 1600px){
+    .order-table-page table thead tr th, 
+    .order-table-page table thead tr td, 
+    .order-table-page table tbody tr th, 
+    .order-table-page table tbody tr td {
+        font-size: 11px;
+    }
+}
+@media (max-width: 1450px){
+    .order-table-page table thead tr th, 
+    .order-table-page table thead tr td, 
+    .order-table-page table tbody tr th, 
+    .order-table-page table tbody tr td {
+        font-size: 10px;
+        padding: 5px;
+    }
+}

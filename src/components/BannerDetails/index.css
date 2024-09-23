@@ -1,0 +1,346 @@
+.total,
+.vat,
+.net-amount {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.add-modal .img-box {
+    text-align: center;
+    height: 450px;
+    width: 100%;
+}
+.add-modal .img-box img {
+    width: 70%;
+    margin: 0 auto;
+    height: 100%;
+    object-fit: none;
+}
+.label {
+    color: white;
+}
+
+.value {
+    color: white;
+    font-weight: bold;
+    /* margin-bottom: 10px; */
+}
+
+.labels {
+    display: flex;
+    color: white;
+    margin-right: 1.5rem;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.values {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+}
+.banner-details {
+    display: flex;
+    flex-wrap: wrap;
+}
+.banners-modal .modal-scroll-area {
+    max-height: 480px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    padding-right: 10px;
+}
+.banner-row {
+    display: flex;
+    justify-content: space-around;
+}
+
+.banner-details .user-box {
+    width: calc(50% - 0px);
+    margin-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.banner-details .user-box h5 {
+    font-size: 16px;
+    color: #fff;
+}
+
+.banner-details .user-box p {
+    border: 1px solid #ffffff40;
+    border-radius: 7px;
+    padding: 8px 15px;
+    background-color: #00f3ff40;
+    color: #fff !important;
+    min-height: 40px;
+    text-transform: capitalize;
+}
+.add-modal h3 {
+    font-size: 20px;
+    font-weight: 600;
+    color: white !important;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.banner-details .preview-video {
+    width: 100%;
+}
+
+.main-modal .preview-video {
+    width: 100%;
+    border-radius: 12px;
+}
+.add-modal .preview-img {
+    width: 100%;
+    border-radius: 6px;
+}
+.my-ads-page .img-preivew-box {
+    position: relative;
+}
+
+.my-ads-page .img-preivew-box .img-box {
+    position: relative;
+}
+
+.my-ads-page .img-preivew-box.fridge .img-box .preview-img {
+    position: absolute;
+    top: 12%;
+    height: 53px;
+    width: 100%;
+    border-radius: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.my-ads-page .img-preivew-box.checkout .img-box .preview-img {
+    position: absolute;
+    top: 28%;
+    height: 96px;
+    width: 95%;
+    border-radius: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.my-ads-page .img-preivew-box.table .img-box .preview-img {
+    position: absolute;
+    top: 43%;
+    height: 110px;
+    width: 73%;
+    border-radius: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.my-ads-page .img-preivew-box.roof .img-box .preview-img {
+    position: absolute;
+    top: 26%;
+    height: 50px;
+    width: 88%;
+    border-radius: 0;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+}
+.my-ads-page .img-preivew-box.rack .img-box .preview-img {
+    position: absolute;
+    top: 28%;
+    height: 35px;
+    width: 76%;
+    border-radius: 0;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+}
+.my-ads-page .img-preivew-box.wall .img-box video.preview-video {
+    position: absolute;
+    left: 50%;
+    top: 19%;
+    width: 91%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+    z-index: 1;
+    height: 249px;
+    border-radius: 0 !important;
+    object-fit: fill;
+}
+.my-ads-page .img-preivew-box .img-box .place-img {
+    position: relative;
+    width: 100%;
+    z-index: 9;
+}
+@media (max-width: 1660px){
+    .my-ads-page .img-preivew-box.wall .img-box video.preview-video{
+        height: 229px;
+    }
+    .my-ads-page .img-preivew-box.table .img-box .preview-img {
+        height: 87px;
+    }
+}
+@media (max-width: 1600px){
+    .order-table-page table thead tr th, 
+    .order-table-page table thead tr td, 
+    .order-table-page table tbody tr th, 
+    .order-table-page table tbody tr td {
+        font-size: 11px;
+    }
+    .my-ads-page .img-preivew-box.wall .img-box video.preview-video{
+        height: 219px;
+    }
+    .my-ads-page .img-preivew-box.fridge .img-box .preview-img{
+        height: 42px;
+    }
+    .my-ads-page .img-preivew-box.checkout .img-box .preview-img{
+        height: 75px;
+    }
+}
+@media (max-width: 1520px){
+    .my-ads-page .img-preivew-box.wall .img-box video.preview-video{
+        height: 199px;
+    }
+}
+@media (max-width: 1450px){
+    .order-table-page table thead tr th, 
+    .order-table-page table thead tr td, 
+    .order-table-page table tbody tr th, 
+    .order-table-page table tbody tr td {
+        font-size: 10px;
+        padding: 5px;
+    }
+    .my-ads-page .img-preivew-box.wall .img-box video.preview-video{
+        height: 189px;
+    }
+}
+@media (max-width: 1400px){
+    .my-ads-page .img-preivew-box.wall .img-box video.preview-video{
+        height: 169px;
+    }
+    .my-ads-page .img-preivew-box.checkout .img-box .preview-img{
+        height: 59px;
+    }
+    .my-ads-page .img-preivew-box.table .img-box .preview-img {
+        height: 70px;
+    }
+}
+@media (max-width: 1300px){
+    .my-ads-page .img-preivew-box.wall .img-box video.preview-video{
+        height: 139px;
+    }
+}
+@media (max-width: 1199px){
+    .banner-details .user-box {
+        width: calc(50% - 0px);
+    }
+    .banner-details .user-box p {
+        font-size: 12px;
+        padding: 10px 15px;
+    }
+    .my-ads-page .img-preivew-box.table .img-box .preview-img {
+        height: 60px;
+    }
+}
+@media (max-width: 991px){
+    .my-ads-page .img-preivew-box.wall .img-box video.preview-video {
+        height: 363px;
+    }
+    .my-ads-page .img-preivew-box.fridge .img-box .preview-img {
+        height: 71px;
+    }
+    .my-ads-page .img-preivew-box.checkout .img-box .preview-img {
+        height: 129px;
+    }
+    .my-ads-page .img-preivew-box.table .img-box .preview-img {
+        height: 160px;
+    }
+}
+@media (max-width: 870px){
+    .my-ads-page .img-preivew-box.wall .img-box video.preview-video {
+        height: 303px;
+    }
+    .my-ads-page .img-preivew-box.table .img-box .preview-img {
+        height: 132px;
+    }
+}
+@media (max-width: 710px){
+    .my-ads-page .img-preivew-box.wall .img-box video.preview-video {
+        height: 255px;
+    }
+    .my-ads-page .img-preivew-box.checkout .img-box .preview-img {
+        height: 98px;
+    }
+    .my-ads-page .img-preivew-box.table .img-box .preview-img {
+        height: 102px;
+    }
+}
+@media (max-width: 600px){
+    .my-ads-page .img-preivew-box.wall .img-box video.preview-video {
+        height: 215px;
+    }
+    .my-ads-page .img-preivew-box.fridge .img-box .preview-img {
+        height: 47px;
+    }    
+}
+
+@media (max-width:  580px){
+    .banner-details .user-box {
+        width: calc(50% - 0px);
+    }
+    .my-ads-page .img-preivew-box.checkout .img-box .preview-img {
+        height: 79px;
+    }
+    .my-ads-page .img-preivew-box.table .img-box .preview-img {
+        height: 82px;
+    }
+}
+@media (max-width: 500px){
+    .my-ads-page .img-preivew-box.wall .img-box video.preview-video {
+        height: 175px;
+    }
+    .my-ads-page .img-preivew-box.roof .img-box .preview-img{
+        height: 34px;
+    }
+}
+@media (max-width: 480px){
+    .banner-details .user-box {
+        width: calc(100% - 0px);
+    }
+    .modal-content .modal-header .modal-title h2, .login-page .login-form .login-title{
+        font-size: 24px !important;
+    }
+
+}
+
+@media (max-width: 450px){
+    .my-ads-page .img-preivew-box.wall .img-box video.preview-video {
+        height: 145px;
+    }
+    .my-ads-page .img-preivew-box.fridge .img-box .preview-img {
+        height: 27px;
+    }
+    .my-ads-page .img-preivew-box.checkout .img-box .preview-img {
+        height: 59px;
+    }
+    .my-ads-page .img-preivew-box.table .img-box .preview-img {
+        height: 62px;
+    }
+}
+@media (max-width: 350px){
+    .my-ads-page .img-preivew-box.wall .img-box video.preview-video {
+        height: 125px;
+    }
+    .my-ads-page .img-preivew-box.checkout .img-box .preview-img {
+        height: 47px;
+    }
+    .my-ads-page .img-preivew-box.table .img-box .preview-img {
+        height: 52px;
+    }
+}
+
+.page-title {
+    display: flex;
+    align-items: center;
+}
+
+.back-arrow {
+    color: white;
+    cursor: pointer;
+}

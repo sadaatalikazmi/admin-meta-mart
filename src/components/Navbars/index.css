@@ -1,0 +1,152 @@
+.nav-bar .wallet-info {
+    display: flex;
+    align-items: center;
+}
+
+.nav-bar .wallet-info .login-role {
+    position: absolute;
+    right: 345px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #f9f9f9 !important;
+}
+
+.nav-bar .wallet-info .login-role span {
+    font-weight: 500;
+    text-transform: capitalize;
+}
+
+
+.nav-bar .wallet-info .address-btn {
+    color: #f9f9f9;
+    padding: 5px 15px;
+    border-radius: 7px;
+    background: #303342;
+    border: 1px solid #f9f9f9;
+}
+
+.nav-bar .wallet-info .address-btn:hover {
+    background: #f47a2f;
+    color: #f9f9f9;
+}
+
+.nav-bar .wallet-info .balance-btn {
+    position: absolute;
+    right: 215px;
+    z-index: -999;
+    color: #f9f9f9;
+    padding: 5px 20px;
+    border-radius: 7px;
+    background: #4f5057;
+    border: 1px solid #f9f9f9;
+}
+
+.nav-bar .wallet-info .balance-btn:hover {
+    background: #f47a2f;
+    color: #f9f9f9;
+}
+.notfication-icon {
+    position: relative;
+    margin-top: 10px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.notfication-icon svg {
+    fill: #fff;
+}
+
+.notfication-icon .MuiBadge-badge {
+    background-color: #22d8c3;
+    font-size: 10px;
+    color: #fff;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.35) inset;
+}
+.side-modal {
+    position: fixed;
+    top: 0;
+    right: -330px;
+    width: 330px;
+    height: 100%;
+    background: linear-gradient(#1e1e2f, #1e1e24);
+    z-index: 9999;
+    padding: 20px;
+    box-shadow: 0 0 15px rgba(0 0 0 / 50%);
+    transition: all 0.5s ease-in-out;
+}
+.side-modal.side-modal-open{
+    right: 0;
+}
+.side-modal .close-sidebar {
+    position: absolute;
+    right: 8px;
+    top: 8px;
+    padding: 0;
+    margin: 0;
+    font-size: 12px;
+    background-color: transparent;
+    border: none;
+    color: #fff;
+}
+
+.side-modal .sidemodal-content {
+    position: relative;
+    padding-top: 10px;
+}
+
+.side-modal .sidemodal-content h2 {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.side-modal .sidemodal-content .notfication-block {
+    position: relative;
+    border-bottom: 1px solid #ffffff30;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+.side-modal .sidemodal-content .notfication-block .massage-arae {
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.side-modal .sidemodal-content .notfication-block .massage-arae p {
+    width: 74%;
+    color: #ffffff80 !important;
+    font-size: 12px;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.side-modal .sidemodal-content .notfication-block .massage-arae .msg-icons {
+    position: relative;
+    text-align: right;
+    width: 23%;
+}
+
+.side-modal .sidemodal-content .notfication-block .massage-arae .msg-icons .msg-icon {
+    position: relative;
+}
+
+.side-modal .sidemodal-content .notfication-block .massage-arae .msg-icons .msg-icon svg {
+    width: 18px;
+}
+.side-modal .sidemodal-content .notfication-block .timedate {
+    position: relative;
+    font-size: 10px;
+    color: #ffffff60;
+}
+
+.msg-unread {
+    cursor: pointer;
+}
+
+.notification-headline {
+    cursor: pointer;
+}

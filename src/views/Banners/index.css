@@ -1,0 +1,168 @@
+.total,
+.vat,
+.net-amount {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.add-modal .img-box {
+    text-align: center;
+    height: 450px;
+    width: 100%;
+}
+.add-modal .img-box img {
+    width: 70%;
+    margin: 0 auto;
+    height: 100%;
+    object-fit: none;
+}
+.label {
+    color: white;
+}
+
+.value {
+    color: white;
+    font-weight: bold;
+    /* margin-bottom: 10px; */
+}
+
+.labels {
+    display: flex;
+    color: white;
+    margin-right: 1.5rem;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.values {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+}
+.banner-details {
+    display: flex;
+    flex-wrap: wrap;
+}
+.banners-modal .modal-scroll-area {
+    max-height: 480px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    padding-right: 10px;
+}
+.banner-row {
+    display: flex;
+    justify-content: space-around;
+}
+
+.banner-details .user-box {
+    width: calc(33.33% - 0px);
+    margin-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.banner-details .user-box h5 {
+    font-size: 16px;
+    color: #fff;
+}
+
+.banner-details .user-box p {
+    border: 1px solid #ffffff40;
+    border-radius: 7px;
+    padding: 5px 15px;
+    background-color: #00f3ff40;
+    color: #fff !important;
+    height: 40px;
+    text-transform: capitalize;
+}
+.add-modal h3 {
+    font-size: 20px;
+    font-weight: 600;
+    color: white !important;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.banner-details .preview-video {
+    width: 100%;
+}
+
+.main-modal .preview-video {
+    width: 100%;
+    border-radius: 12px;
+}
+.add-modal .preview-img {
+    width: 100%;
+    border-radius: 6px;
+}
+.banner-table-page table tbody tr td .MuiInputBase-root {
+    border-radius: 40px;
+    font-size: 9px;
+}
+.banner-table-page table tbody tr td select.banners-select, 
+.banner-table-page table tbody tr th select.banners-select {
+    opacity: 1 !important;
+}
+table tbody tr td .MuiInputBase-root svg {
+    color: #fff;
+}
+.status-modal .modal-content .modal-body .form-group input#status {
+    text-transform: capitalize;
+}
+
+.payment-modals.main-modal .modal-content .modal-body .form-group .MuiInputBase-root {
+    width: 100%;
+}
+
+.payment-modals.main-modal .modal-content .modal-body .form-group .MuiInputBase-root .MuiSelect-select {
+    border: 1px solid #ffffff40;
+    border-radius: 7px;
+    padding: 8px 15px;
+    background-color: #00f3ff40;
+    color: #fff !important;
+    width: 100%;
+    display: block;
+}
+
+.payment-modals.main-modal .modal-content .modal-body .form-group .MuiInputBase-root .MuiSelect-select em {
+    font-style: normal;
+}
+
+.payment-modals.main-modal .modal-content .modal-body .form-group .MuiInputBase-root svg {
+    color: #fff;
+}
+.adv-chart-item .apexcharts-text tspan {
+    text-transform: capitalize;
+}
+@media (max-width: 1600px){
+    .order-table-page table thead tr th, 
+    .order-table-page table thead tr td, 
+    .order-table-page table tbody tr th, 
+    .order-table-page table tbody tr td {
+        font-size: 11px;
+    }
+}
+@media (max-width: 1450px){
+    .order-table-page table thead tr th, 
+    .order-table-page table thead tr td, 
+    .order-table-page table tbody tr th, 
+    .order-table-page table tbody tr td {
+        font-size: 10px;
+        padding: 5px;
+    }
+}
+
+@media (max-width:  580px){
+    .banner-details .user-box {
+        width: calc(50% - 0px);
+    }
+}
+@media (max-width:  480px){
+    .banner-details .user-box {
+        width: calc(100% - 0px);
+    }
+    .modal-content .modal-header .modal-title h2, .login-page .login-form .login-title{
+        font-size: 24px !important;
+    }
+}

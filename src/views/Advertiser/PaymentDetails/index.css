@@ -1,0 +1,331 @@
+
+.radio-buttons.card-select-area {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    text-align: left;
+    flex-wrap: wrap;
+    max-height: 150px;
+    overflow-y: auto;
+    width: 70%;
+    margin: 0 auto 20px;
+}
+
+.radio-buttons.card-select-area .radio-btns-area {
+    width: 33.33%;
+}
+.radio-buttons.card-select-area .custom-radio {
+    position: relative;
+    margin-bottom: 8px;
+    width: 100%;
+    margin-right: 0;
+}
+.main-modal .modal-content .modal-header .btn-close {
+    background-color: transparent;
+    border: none;
+}
+
+.main-modal .modal-content .modal-header .btn-close:before {
+    content: "X";
+    color: #fff;
+}
+.radio-buttons.card-select-area .custom-radio .radio-btn {
+    display: flex;
+    flex-wrap: wrap;
+    box-shadow: none;
+    border: none !important;
+    border-radius: 7px;
+    background-color: #00f3ff20;
+    color: #fff !important;
+    height: auto;
+    text-transform: capitalize;
+    width: 100%;
+    padding: 8px;
+    font-size: 14px;
+    cursor: pointer;
+    font-style: normal;
+    margin: 0;
+}
+
+.radio-buttons.card-select-area .custom-radio .radio-btn .hobbies-icon {
+    width: 36px;
+    height: 36px;
+    position: relative;
+    top: auto;
+    left: auto;
+    transform: translate(0, 0);
+}
+
+.radio-buttons.card-select-area .custom-radio .radio-btn .hobbies-icon img {
+    margin: 0;
+}
+
+.radio-buttons.card-select-area .custom-radio .radio-btn .text-box {
+    text-align: left;
+    padding-left: 15px;
+    width: 62%;
+    margin-top: -4px;
+}
+
+.radio-buttons.card-select-area .custom-radio .radio-btn .text-box h3 {
+    color: #fff;
+    font-size: 14.486px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 15.693px;
+    margin-bottom: 0;
+}
+
+.radio-buttons.card-select-area .custom-radio .radio-btn .text-box p {
+    color: var(--Bodytext-50, #fff) !important;
+    font-size: 13.257px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 15.693px; /* 162.5% */
+    margin-bottom: 0;
+    text-transform: none !important;
+}
+
+.radio-buttons.card-select-area .custom-radio .radio-btn .card-name {
+    margin-bottom: 0;
+    margin-top: 12px;
+    color: var(--Secondary-100, #22d8c3) !important;
+    font-size: 11.657px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 15.693px;
+    padding: 0 5px;
+}
+.radio-buttons.card-select-area .custom-radio .radio-btn .card-detail-area {
+    display: block;
+    width: 29%;
+    padding: 0 1px 0 1px;
+    text-align: right;
+}
+.radio-buttons.card-select-area .custom-radio input:checked + .radio-btn{
+    background-color: #00f3ff50;
+}
+
+.radio-buttons.card-select-area .custom-radio input:checked + .radio-btn .text-box h3, 
+.radio-buttons.card-select-area .custom-radio input:checked + .radio-btn .text-box p, 
+.radio-buttons.card-select-area .custom-radio input:checked + .radio-btn .card-name {
+    color: #fff;
+}
+.radio-buttons.card-select-area .custom-radio input[type="radio"] {
+    opacity: 0;
+    position: absolute;
+    left: 11px;
+}
+
+.radio-buttons.card-select-area .custom-radio .radio-btn .hobbies-icon svg path {
+    stroke: #fff;
+}
+
+.main-panel>.content .payment-box {
+    width: 69%;
+    margin: 31px auto;
+    background: linear-gradient(0deg, #24262f 0%, #24262f 100%);
+    transition: all 250ms ease;
+    will-change: transition;
+    cursor: pointer;
+    position: relative;
+    font-weight: 900;
+    align-items: center;
+    border-radius: 8px;
+    padding-top: 0;
+    padding: 25px 25px 5px;
+}
+
+.main-panel>.content .payment-box .payment-block {
+    position: relative;
+}
+
+.main-panel>.content .payment-box .payment-block .group-form {
+    margin-bottom: 20px;
+    position: relative;
+    cursor: pointer;
+}
+
+.main-panel>.content .payment-box .payment-block .group-form label {
+    display: block;
+    color: #fff;
+    font-weight: 400;
+    margin-bottom: 14px;
+}
+.main-panel>.content .payment-box .payment-block .group-form input {
+    border: 1px solid #ffffff40;
+    border-radius: 7px;
+    background-color: #00f3ff40;
+    color: #fff !important;
+    height: auto;
+    text-transform: capitalize;
+    width: 100%;
+    padding: 8px 15px 8px 43px;
+    font-size: 14px;
+    font-style: normal;
+}
+.main-panel>.content .payment-box .payment-block .group-form button.plus-btn {
+    position: absolute;
+    right: 7px;
+    top: 44px;
+    background-color: transparent;
+    border: none;
+    color: #fff;
+}
+.main-panel>.content .payment-box .payment-block .group-form p {
+    margin-top: 15px;
+    margin-bottom: 0;
+    color: #ffffff60 !important;
+    font-size: 12px;
+}
+.main-panel>.content .payment-box .payment-block .group-form.label-radio {
+    display: flex;
+    align-items: center;
+}
+
+.main-panel>.content .payment-box .payment-block .group-form.label-radio label {
+    margin-bottom: 0;
+    margin-right: 21px;
+}
+.main-panel>.content .payment-box .payment-block p {
+    color: #fff !important;
+}
+
+.main-panel>.content .payment-box .payment-block .group-form label svg {
+    color: #fff;
+}
+.main-panel>.content .payment-box .payment-block .group-form .icon {
+    position: absolute;
+    left: 14px;
+    top: 40px;
+}
+
+.main-panel>.content .payment-box .payment-block .group-form .icon svg {
+    color: #fff;
+}
+ul.MuiList-root li {
+    flex-wrap: wrap;
+}
+ul.MuiList-root li h4 {
+    margin-bottom: 0;
+    margin-right: 4px;
+    display: block;
+    width: 100%;
+}
+
+ul.MuiList-root li span {
+    font-size: 12px;
+}
+.add-modal.payment-modals p {
+    color: #fff !important;
+    font-size: 12px;
+}
+
+.payment-modals.main-modal .modal-content .modal-body .form-group .btn-style-two{
+    background-color: #fff !important;
+    border: 1px solid #22d8c3 !important;
+    padding: 10px 25px !important;
+    font-size: 12px !important;
+    color: #22d8c3 !important;
+    border-radius: 34px !important;
+    transition: all 0.3s ease-in-out;
+    margin-right: 15px;
+}
+.payment-modals.main-modal .modal-content .modal-body .form-group .btn-style-two .btn-style-two:hover {
+    background-color: #22d8c3 !important;
+    border: 1px solid #22d8c3 !important;
+    color: #fff !important;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.35) inset !important;
+}
+.payment-modals.main-modal .modal-content .modal-body .form-group .add-card {
+    background-color: transparent;
+    border: none;
+    margin-top: 9px;
+    font-size: 18px;
+    color: #fff;
+}
+
+.payment-modals.main-modal .modal-content .modal-body .form-group .add-card .icon {
+    font-style: normal;
+    border: 1px dashed #ffffff50;
+    width: 40px;
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.payment-modals.main-modal .modal-content .modal-body .radio-buttons.card-select-area {
+    max-height: 180px;
+    width: 100%;
+    display: block;
+}
+.main-panel>.content .payment-box .payment-block .radio-buttons.card-select-area.card-payment-check {
+    display: block;
+    width: 100%;
+}
+
+.main-panel>.content .payment-box .payment-block .radio-buttons.card-select-area.card-payment-check .radio-btns-area {
+    width: 100%;
+}
+
+.main-panel>.content .payment-box .payment-block .radio-buttons.card-select-area.card-payment-check .radio-btns-area .text-box {
+    width: 65%;
+    margin-top: 3px;
+}
+
+.main-panel>.content .payment-box .payment-block .radio-buttons.card-select-area.card-payment-check .radio-btns-area .hobbies-icon {
+    opacity: 0.6;
+}
+.payment-modals.main-modal .modal-content .modal-body .radio-buttons.card-select-area .radio-btns-area {
+    width: 100%;
+    margin-top: 0;
+}
+
+.payment-modals.main-modal .modal-content .modal-body .group-form.label-radio label {
+    display: block;
+    margin-bottom: 18px;
+}
+
+.payment-modals.main-modal .modal-content .modal-body .group-form.label-radio label i {
+    font-style: normal;
+    display: block;
+    margin-left: 40px;
+    font-size: 10px;
+    font-weight: 400;
+}
+
+.payment-modals.main-modal .modal-content .modal-body .group-form.label-radio label svg {
+    color: #fff;
+}
+
+.actions-section {
+    align-self: center;
+}
+
+.actions-section button {
+    color: #FFF;
+}
+
+
+@media (max-width: 1280px) {
+    .main-panel>.content .payment-box .payment-block .radio-buttons.card-select-area.card-payment-check .radio-btns-area .text-box {
+        width: 60%;
+        margin-top: 3px;
+    }
+}
+@media (max-width: 600px) {
+    .main-panel>.content .payment-box .payment-block .radio-buttons.card-select-area.card-payment-check .radio-btns-area .text-box {
+        width: 87%;
+        margin-top: 3px;
+    }
+    .radio-buttons.card-select-area .custom-radio .radio-btn .card-detail-area {
+        display: block;
+        width: 100%;
+        padding: 0 1px 0 1px;
+        text-align: left;
+    }
+    .main-panel>.content .payment-box .payment-block .radio-buttons.card-select-area.card-payment-check {
+        display: block;
+        width: 100%;
+        max-height: 176px;
+    }
+}

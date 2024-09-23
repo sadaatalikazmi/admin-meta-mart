@@ -1,0 +1,1449 @@
+select {
+    display: block;
+    height: auto;
+    visibility: visible;
+}
+
+.cropper {
+    display: block;
+    height: auto;
+    visibility: visible;
+}
+
+.age-inputs {
+    display: flex;
+}
+
+.image-selector {
+    margin: 0;
+    padding: 0;
+    width: 0;
+    height: 0;
+}
+
+.input-error {
+    color: red;
+}
+.tabs-box {
+    position: relative;
+}
+
+.tabs-box .form-group {
+    position: relative;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.tabs-box .form-group label {
+    display: block;
+    width: 100%;
+    color: #fff;
+}
+
+.tabs-box .form-group select, .tabs-box .form-group input {
+    border: 1px solid #ffffff40;
+    border-radius: 7px;
+    padding: 5px 15px;
+    background-color: #00f3ff40;
+    color: #fff !important;
+    height: 40px;
+    text-transform: capitalize;
+    width: 100%;
+}
+
+.tabs-box .form-group input::placeholder {
+    color: #ffffff70;
+}
+.tabs-box .form .heading-label {
+    font-size: 18px;
+    color: #fff;
+}
+.tabs-box .form-group .MuiSelect-select {
+    border: 1px solid #ffffff40;
+    border-radius: 7px;
+    background-color: #00f3ff40;
+    color: #fff !important;
+    height: auto;
+    text-transform: capitalize;
+    width: 100%;
+    padding: 8px;
+    font-size: 14px;
+    font-style: normal;
+}
+
+.tabs-box .form-group .MuiInputBase-root {
+    width: 100%;
+}
+
+.tabs-box .form-group .MuiSelect-select em {
+    font-style: normal;
+}
+
+.tabs-box .form-group .MuiInputBase-root  .MuiSvgIcon-root {
+    fill: #fff;
+}
+
+.tabs-box .form-group .MuiSelect-select {
+    border: 1px solid #ffffff40;
+    border-radius: 7px;
+    background-color: #00f3ff40;
+    color: #fff !important;
+    height: auto;
+    text-transform: capitalize;
+    width: 100%;
+    padding: 8px;
+    font-size: 14px;
+    font-style: normal;
+}
+
+.tabs-box .form-group .MuiInputBase-root {
+    width: 100%;
+}
+
+.tabs-box .form-group .MuiSelect-select em {
+    font-style: normal;
+}
+
+.tabs-box .form-group .MuiInputBase-root  .MuiSvgIcon-root {
+    fill: #fff;
+}
+
+ul.MuiList-root {
+    background-color: #282a37 !important;
+    border: none !important;
+}
+
+ul.MuiList-root li {
+    color: #fff;
+    font-size: 14px;
+}
+
+ul.MuiList-root li.MuiButtonBase-root.Mui-selected,
+ul.MuiList-root li:hover {
+    background-color: #00f3ff15;
+}
+
+ul.MuiList-root li em {
+    font-style: normal;
+}
+.tabs-box .form-group .input-file  .btn-submit {
+    display: inline-block;
+}
+.tabs-box .form-group .input-file {
+    position: relative;
+    margin-top: 26px;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    flex-wrap: wrap;
+}
+.tabs-box .form-group  .img-upload-area .img-box img {
+    object-fit: cover;
+
+}
+.tabs-box .form-group .img-upload-area .text-box{
+    margin:20px 0 0;
+    width: 100%;
+}
+.tabs-box .form-group .input-file  .btn-submit {
+    display: inline-block;
+}
+
+.tabs-box .form-group .input-file .btn-edit {
+    color: #ffffff;
+    padding: 5px 15px;
+    border-radius: 25px;
+    background-color: #22d8c3;
+    border: 1px solid #22d8c3;
+    box-shadow: 0 0 15px 0 rgba(0,0,0,0.4) inset;
+    transition: all 0.3s ease-in-out;
+    display: inline-block;
+    width: 63%;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: -35px;
+}
+
+.tabs-box .form-group .input-file .btn-edit:hover{
+    color: #22d8c3;
+    border: 1px solid #22d8c3;
+    background-color: #fff;
+}
+
+.tabs-box .form-group .input-file .btn-submit {
+    color: #22d8c3;
+    padding: 5px 15px;
+    border-radius: 25px;
+    background-color: #fff;
+    border: 1px solid #22d8c3;
+    box-shadow: 0 0 15px 0 rgba(0,0,0,0.4) inset;
+    transition: all 0.3s ease-in-out;
+    display: inline-block;
+    width: 63%;
+    text-align: center;
+}
+
+.tabs-box .form-group .input-file .btn-submit:hover{
+    color: #fff;
+    border: 1px solid #22d8c3;
+    background-color: #22d8c3;
+}
+.tabs-box .form-group .MuiButtonBase-root {
+    color: #ffffff !important;
+    padding: 5px 30px !important;
+    border-radius: 25px !important;
+    background-color: #22d8c3 !important;
+    border: 1px solid #22d8c3 !important;
+    box-shadow: 0 0 15px 0 rgba(0,0,0,0.4) inset !important;
+    transition: all 0.3s ease-in-out;
+}
+
+.tabs-box .form-group .MuiButtonBase-root:hover {
+    color: #22d8c3 !important;
+    border: 1px solid #22d8c3 !important;
+    background-color: #fff !important;
+}
+.tabs-box .form-group .img-upload-area .input-file video {
+    width: 100%;
+}
+
+.crop-modal .modal-body h2 {
+    font-size: 26px;
+    color: #fff !important;
+    border-bottom: 1px solid #ffffff40;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.main-modal .modal-content .modal-btn {
+    color: #ffffff !important;
+    padding: 5px 35px !important;
+    border-radius: 25px !important;
+    background-color: #22d8c3 !important;
+    border: 1px solid #22d8c3 !important;
+    box-shadow: 0 0 15px 0 rgba(0,0,0,0.4) inset !important;
+    transition: all 0.3s ease-in-out;
+    margin: 0 auto;
+}
+.main-modal .modal-content .modal-btn:hover{
+    color: #22d8c3 !important;
+    border: 1px solid #22d8c3 !important;
+    background-color: #fff !important;
+}
+.tabs-box .form-group .react-datepicker-wrapper {
+    width: 100%;
+}
+.react-datepicker__header {
+    background-color: #00f3ff40;
+}
+
+.react-datepicker {
+    background-color: #282a37;
+    color: #fff !important;
+    border: none !important;
+}
+
+.react-datepicker__day-name, .react-datepicker__day, .react-datepicker__time-name {
+    color: #fff;
+}
+
+.react-datepicker__header .react-datepicker__current-month, .react-datepicker__current-month, .react-datepicker-time__header, .react-datepicker-year-header {
+    color: #fff;
+}
+
+.react-datepicker-popper[data-placement^=bottom] .react-datepicker__triangle::before, .react-datepicker-popper[data-placement^=bottom] .react-datepicker__triangle::after {
+    border-bottom-color: #00f3ff40;
+}
+.react-datepicker__day--keyboard-selected, .react-datepicker__month-text--keyboard-selected, .react-datepicker__quarter-text--keyboard-selected, .react-datepicker__year-text--keyboard-selected,
+.react-datepicker__day--keyboard-selected:hover, .react-datepicker__month-text--keyboard-selected:hover, .react-datepicker__quarter-text--keyboard-selected:hover, .react-datepicker__year-text--keyboard-selected:hover,
+.react-datepicker__day:hover, .react-datepicker__month-text:hover, .react-datepicker__quarter-text:hover, .react-datepicker__year-text:hover{
+    background-color: #00f3ff40 !important;
+}
+.tabs-box .form-group .img-upload-area .text-box .input-file .img-box {
+    display: block;
+    width: 100% !important;
+    height: 100%;
+    margin-bottom: 0;
+    margin-right: 0;
+}
+.tabs-box .form-group .img-upload-area .img-box img {
+    object-fit: contain !important;
+}
+.form-group .img-upload-area .text-box .input-file .img-size {
+    position: absolute;
+    bottom: 54px;
+    right: 0;
+    opacity: 0.5;
+}
+
+.form-group .img-upload-area .text-box .input-file .btn-groups {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 93%;
+    margin-top: 21px;
+}
+
+.form-group .img-upload-area .text-box .input-file .btn-groups .img-upload-box {
+    position: relative;
+}
+
+.form-group .img-upload-area .text-box .input-file .btn-groups .img-upload-box .btn-edit {
+    padding: 7px 15px;
+    width: 90%;
+    margin-top: 8px;
+    margin-bottom: -50px;
+    margin-right: 10px;
+}
+
+.form-group .img-upload-area .text-box .input-file .btn-groups .btn-submit {
+    width: 90%;
+    margin-top: 17px;
+    padding: 7px 15px;
+}
+.tabs-box .form-group .img-upload-area .text-box .input-file.img-box{
+    position: relative;
+}
+
+.tabs-box .form-group .img-upload-area .text-box .input-file.rack .img-box .place-img {
+    position: absolute;
+    top: 26%;
+    left: 50%;
+    width: 79%;
+    height: 46px;
+    object-fit: cover !important;
+    border-radius: 0;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+}
+.tabs-box .form-group .img-upload-area .text-box .input-file.table .img-box .place-img {
+    position: absolute;
+    top: 42%;
+    left: 50%;
+    width: 78%;
+    height: 121px;
+    object-fit: cover !important;
+    border-radius: 0;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+}
+.tabs-box .form-group .img-upload-area .text-box .input-file.roof .img-box .place-img {
+    position: absolute;
+    top: 24%;
+    left: 50%;
+    width: 89%;
+    height: 39px;
+    object-fit: cover !important;
+    border-radius: 0;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+}
+
+.tabs-box .form-group .img-upload-area .text-box .input-file.checkout .img-box .place-img {
+    position: absolute;
+    top: 27%;
+    left: 50%;
+    width: 97%;
+    height: 76px;
+    object-fit: cover !important;
+    border-radius: 0;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+}
+
+.tabs-box .form-group .img-upload-area .text-box .input-file.fridge .img-box .place-img {
+    position: absolute;
+    top: 9%;
+    left: 50%;
+    width: 100%;
+    height: 48px;
+    object-fit: cover !important;
+    border-radius: 0;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+}
+.tabs-box .form-group .img-upload-area .text-box .input-file.wall .img-box {
+    height: 300px;
+    border: none;
+}
+.tabs-box .form-group .img-upload-area .text-box .input-file.wall .img-box .place-img {
+    position: absolute;
+    height: 247px;
+    top: 12%;
+    left: 50%;
+    width: 100%;
+    object-fit: cover !important;
+    border-radius: 0;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+}
+
+.tabs-box .form-group .img-upload-area .text-box .input-file.wall video {
+    width: 85%;
+    position: absolute;
+    padding: 0;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+    height: 189px;
+    object-fit: fill;
+    top: 25%;
+    border-radius: 0;
+}
+.tabs-box .form-group .MuiSelect-select label {
+    padding: 0;
+    margin: 0;
+}
+
+.tabs-box .form-group .MuiSelect-select label .MuiCheckbox-root {
+    display: none;
+}
+.tabs-box .form-group .MuiSelect-select .item-box {
+    display: none;
+}
+
+ul.MuiList-root li .item-box {
+    display: inline-block;
+}
+
+ul.MuiList-root li .item-box span {
+    color: #ffffff50;
+    padding: 0 12px 0 0;
+}
+
+ul.MuiList-root li .item-box span svg {
+    font-size: 17px;
+}
+
+ul.MuiList-root li .item-box span.Mui-checked {
+    color: #22d8c3;
+}
+.tabs-box .form-group .img-upload-area .img-box  .replace-img,
+.tabs-box .form-group .img-upload-area .text-box .input-file.table .replace-img,
+.tabs-box .form-group .img-upload-area .text-box .input-file.roof .replace-img,
+.tabs-box .form-group .img-upload-area .text-box .input-file.checkout .replace-img,
+.tabs-box .form-group .img-upload-area .text-box .input-file.fridge .replace-img,
+.tabs-box .form-group .img-upload-area .text-box .input-file.wall .replace-img{
+    z-index: 9;
+    position: relative;
+}
+.tabs-box .form-group .MuiSelect-select label {
+    padding: 0;
+    margin: 0;
+    display: inline-block;
+    width: auto;
+    font-size: 14px;
+}
+
+.tabs-box .form-group .MuiSelect-select label .MuiCheckbox-root {
+    display: none;
+}
+
+ul.MuiList-root li label,
+ul.MuiList-root li .MuiCheckbox-root {
+    margin: 0;
+    padding: 0;
+}
+
+ul.MuiList-root li label span {
+    padding: 0 0 0 7px;
+}
+
+ul.MuiList-root li label span svg,
+ul.MuiList-root li .MuiCheckbox-root svg {
+    font-size: 18px;
+    color: #ffffff80;
+    position: relative;
+    margin-right: 10px;
+}
+.main-panel>.content.create-banner-page .form-group .MuiInputBase-root .MuiSelect-select > div {
+    display: inline-block;
+}
+
+.main-panel>.content.create-banner-page .form-group .MuiInputBase-root .MuiSelect-select > div .MuiButtonBase-root {
+    display: none;
+}
+ul.MuiList-root li label span.Mui-checked {
+    color: #000;
+}
+
+ul.MuiList-root li label span.Mui-checked svg,
+ul.MuiList-root li .Mui-checked svg {
+    color: #00f3ff40;
+}
+.tabs-box .form-group .img-upload-area .text-box .input-file.wall .replace-img {
+    object-fit: cover !important;
+}
+.create-banner-step {
+    position: relative;
+}
+
+.create-banner-step .MuiStepLabel-iconContainer svg {
+    color: #fff;
+}
+
+.create-banner-step .MuiStepLabel-iconContainer svg text {
+    fill: #000;
+}
+
+.create-banner-step .MuiStepLabel-iconContainer .Mui-active {
+    color: #00f3ff60;
+}
+
+.create-banner-step .MuiStepLabel-iconContainer .Mui-active text {
+    fill: #fff;
+}
+
+.create-banner-step span {
+    color: #fff;
+    font-size: 11px;
+}
+
+.create-banner-step span .Mui-active {
+    color: #fff;
+}
+
+.create-banner-step span .MuiTypography-caption {
+    font-size: 9px;
+}
+.main-panel>.content.create-banner-page .btn-style-one {
+    background-color: #22d8c3;
+    border: 1px solid #22d8c3;
+    padding: 0.4rem 1.5rem;
+    font-size: 12px;
+    color: #fff;
+    border-radius: 34px;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.35) inset;
+}
+.main-panel>.content.create-banner-page .form-group label .MuiCheckbox-sizeMedium.Mui-checked {
+    display: none;
+}
+.main-panel>.content.create-banner-page .select-box-gog {
+    background: linear-gradient(0deg, #24262f 0%, #24262f 100%);
+    transition: all 250ms ease;
+    will-change: transition;
+    cursor: pointer;
+    position: relative;
+    font-weight: 900;
+    align-items: center;
+    margin: 0 0 20px;
+    border-radius: 8px;
+    padding-top: 0;
+    padding: 25px 25px 5px;
+}
+.main-panel>.content.create-banner-page .form-group label.input-label {
+    position: relative;
+}
+.create-banner-step span .Mui-completed {
+    color: #22d8c3;
+}
+.form-group .img-upload-area .text-box label {
+    text-transform: capitalize;
+}
+.main-panel>.content.create-banner-page .form-group .MuiInputBase-root .MuiSelect-select em,
+.content.create-banner-page .MuiPaper-root .MuiCollapse-root .MuiCollapse-wrapper .MuiCollapse-wrapperInner .MuiAccordion-region .MuiAccordionDetails-root .reach-box .reach-block .MuiSelect-select em{
+    font-style: normal;
+    font-size: 13px;
+    opacity: 0.6;
+}
+label.heading-label {
+    color: #fff;
+    font-weight: 600;
+}
+.main-panel>.content.create-banner-page .form-group label .MuiCheckbox-sizeMedium.Mui-checked svg {
+    display: none;
+}
+
+.main-panel>.content.create-banner-page .form-group label.MuiFormControlLabel-root {
+    display: inline-block;
+    width: auto;
+    padding: 0;
+    margin: 0;
+    font-size: 12px !important;
+}
+.main-panel>.content.create-banner-page .form-group label.MuiFormControlLabel-root .MuiTypography-root{
+    font-size: 12px !important;
+}
+.main-panel>.content.create-banner-page .form-group label.MuiFormControlLabel-root input {
+    display: none;
+}
+.main-panel>.content.create-banner-page .btn-style-one:hover {
+    background: #fff !important;
+    border: 1px solid #22d8c3 !important;
+    color: #22d8c3;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0) inset;
+}
+.heading-step {
+    position: relative;
+    color: #fff !important;
+    font-size: 19px;
+    font-weight: 600;
+}
+
+.heading-step {
+    position: relative;
+    color: #fff !important;
+    font-size: 19px;
+    font-weight: 600;
+}
+
+.form-group.tabs-btn {
+    position: relative;
+}
+.form-group.tabs-btn .category-label {
+    display: block;
+    width: 100%;
+    margin: 20px 0 10px;
+    color: #fff;
+}
+.form-group.tabs-btn input[type=radio] {
+    display: none;
+  }
+  .form-group.tabs-btn input[type=radio]:checked + .box {
+    background: #00f3ff60;
+    border: 1px solid #00f3ff60;
+    color: #fff;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0 0 50px 0 rgba(0, 0, 0, 0.35) inset;
+}
+  .form-group.tabs-btn input[type=radio]:checked + .box span {
+    color: white;
+  }
+  .form-group.tabs-btn input[type=radio]:checked + .box span:before {
+    transform: translateY(0px);
+    opacity: 1;
+  }
+
+  .form-group.tabs-btn .box .dots {
+    position: absolute;
+    right: 15px;
+    top: 50%;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #22d8c3;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.35) inset;
+}
+.form-group.tabs-btn input[type=radio]:checked + .box .dots{
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.35) inset;
+    background-color: #fff;
+}
+.form-group.tabs-btn .box {
+    transition: all 250ms ease;
+    will-change: transition;
+    cursor: pointer;
+    position: relative;
+    padding: 15px;
+    border-radius: 8px;
+    border: 1px solid #22d8c3;
+    margin-bottom: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+  .form-group.tabs-btn .box:active {
+    transform: translateY(10px);
+  }
+  .form-group.tabs-btn .box span {
+    font-size: 1.5em;
+    -webkit-user-select: none;
+    user-select: none;
+    color: #fff;
+    text-align: center;
+    width: 100%;
+}
+.form-group.tabs-btn input[type=radio]:checked + .box .dots:before
+{
+    content: "";
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 10px;
+    height: 10px;
+    background-color: #22d8c3;
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.35) inset;
+}
+.form-group.tabs-btn .box .dots:before {
+    content: "";
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 10px;
+    height: 10px;
+    background-color: #fff;
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.35) inset;
+}
+  .form-group.tabs-btn p {
+    color: #fff;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+  }
+  .form-group.tabs-btn p a {
+    text-decoration: underline;
+    font-weight: bold;
+    color: #fff;
+  }
+  .form-group.tabs-btn p span:after {
+    content: "";
+    font-family: FontAwesome;
+    color: yellow;
+  }
+
+  .MuiBox-root.css-2royc9 {
+    position: absolute;
+    bottom: -19px;
+    width: 74%;
+    left: 50%;
+    margin-bottom: 20px;
+    transform: translateX(-41%);
+}
+
+.main-panel>.content .MuiBox-root h3 {
+    font-size: 18px;
+    color: #ffffff90;
+    font-weight: 600;
+}
+
+.main-panel>.content.create-banner-page .form-group .img-upload-area .text-box {
+    width: 100%;
+}
+
+.main-panel>.content.create-banner-page .form-group .img-upload-area .text-box .input-file {
+    width: 100%;
+}
+
+.main-panel>.content.create-banner-page .form-group .img-upload-area .text-box .input-file .img-box {
+    width: 100%;
+    height: 400px;
+    display: block;
+}
+
+.main-panel>.content.create-banner-page .form-group .img-upload-area .text-box .input-file .img-box .place-img {
+    position: absolute;
+    left: 0;
+    border-radius: 0;
+}
+
+.main-panel>.content.create-banner-page .form-group .img-upload-area .text-box .input-file .img-box .replace-img {
+    position: relative;
+    z-index: 2;
+}
+
+.main-panel>.content.create-banner-page .form-group .img-upload-area .text-box .img-size {
+    text-align: right;
+    color: #ffffff70 !important;
+    font-size: 13px;
+}
+
+.main-panel>.content.create-banner-page .form-group .img-upload-area .text-box .row {
+    align-items: center;
+}
+.main-panel>.content.create-banner-page .form-group .img-upload-area .text-box .input-file.rack .img-box .place-img {
+    height: 64px;
+    top: 26%;
+}
+.main-panel>.content.create-banner-page .form-group .img-upload-area .text-box .btn-groups {
+    position: relative;
+    width: 63%;
+    margin: 0 auto;
+    text-align: center;
+}
+label.label-step {
+    color: #fff;
+}
+.react-datepicker-wrapper {
+    width: 100%;
+}
+.main-panel>.content.create-banner-page .form-group .img-upload-area .text-box .btn-groups .img-upload-box {position: relative;margin-right: 21px;width: 100%;}
+
+.main-panel>.content.create-banner-page .form-group .img-upload-area .text-box .btn-groups .img-upload-box .btn-edit {
+    width: 100%;
+    margin-top: 43px;
+    background-color: #22d8c3;
+    border: 1px solid #22d8c3;
+    padding: 0.4rem 1.5rem;
+    font-size: 12px;
+    color: #fff;
+    border-radius: 34px;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.35) inset;
+}
+
+.main-panel>.content.create-banner-page .form-group .img-upload-area .text-box .btn-groups .img-upload-box input {
+    position: absolute;
+    top: -44px;
+    opacity: 0 !important;
+    cursor: pointer;
+}
+
+.main-panel>.content.create-banner-page .form-group .img-upload-area .text-box .btn-groups .btn-submit {
+    text-align: center;
+    width: 100%;
+    background-color: #22d8c3;
+    border: 1px solid #22d8c3;
+    padding: 0.4rem 1.5rem;
+    font-size: 12px;
+    color: #fff;
+    border-radius: 34px;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.35) inset;
+    cursor: pointer;
+    display: block;
+}
+.main-panel>.content.create-banner-page .form-group .img-upload-area .text-box .input-file.table .img-box .place-img {
+    top: 41%;
+    height: 197px;
+}
+.main-panel>.content.create-banner-page .form-group .img-upload-area .text-box .input-file.checkout .img-box .place-img {
+    top: 26%;
+    height: 184px;
+}
+.main-panel>.content.create-banner-page .form-group .img-upload-area .text-box .input-file.roof .img-box .place-img {
+    top: 24%;
+    height: 145px;
+}
+.main-panel>.content.create-banner-page .form-group .img-upload-area .text-box .input-file.fridge .img-box .place-img {
+    top: 10%;
+    height: 73px;
+}
+.main-panel>.content.create-banner-page .form-group .img-upload-area .text-box .input-file.wall .img-box .place-img {
+    top: 0;
+    height: 391px;
+}
+.main-panel>.content.create-banner-page .form-group .img-upload-area .text-box .input-file.wall .img-box video.preview-video {
+    position: relative;
+    top: 13%;
+    width: 100%;
+    height: 82%;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+    object-fit: cover;
+}
+.main-panel>.content.create-banner-page .select-box-gog h5 {
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 3px;
+}
+.payment-modals.main-modal .modal-content .modal-body .progresbar-area {
+    position: relative;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.payment-modals.main-modal .modal-content .modal-body .progresbar-area p {
+    color: #fff !important;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.payment-modals.main-modal .modal-content .modal-body .progresbar-area img.place-img {
+    filter: brightness(4);
+    width: 100%;
+    height: 12px;
+}
+
+.main-panel>.content.create-banner-page .select-box-gog p {
+    color: #fff !important;
+    font-size: 12px;
+    margin-bottom: 18px;
+}
+
+
+.form-group.tabs-btn .box .text-box {
+    width: 83%;
+    position: relative;
+}
+.form-group.tabs-btn .box .img-box {
+    width: 11%;
+    text-align: right;
+}
+.form-group.tabs-btn .box .text-box h2 {
+    font-size: 18px;
+    color: #fff;
+    font-weight: 600;
+    margin-bottom: 6px;
+}
+.main-panel>.content.create-banner-page .form-group .img-upload-area .text-box .input-file.table {
+    margin-bottom: 0;
+}
+.main-panel>.content.create-banner-page .form-group .img-upload-area .text-box.style-two .input-file .img-box {
+    height: 200px;
+    margin: 0;
+}
+
+.main-panel>.content.create-banner-page .form-group .img-upload-area .text-box.style-two .input-file.wall .img-box .place-img {
+    height: 200px;
+    border-radius: 7px;
+}
+.main-panel>.content.create-banner-page .form-group .img-upload-area .text-box.style-two  .input-file .img-box .place-img{
+    left: 50%;
+    transform: translateX(-50%);
+}
+.main-panel>.content.create-banner-page .form-group .img-upload-area .text-box.style-two .input-file.rack .place-img {
+    height: 36px;
+    width: 78%;
+}
+.main-panel>.content.create-banner-page .form-group .img-upload-area .text-box.style-two .input-file.table .place-img {
+    height: 98px;
+    width: 78%;
+}
+.main-panel>.content.create-banner-page .form-group .img-upload-area .text-box.style-two .input-file.roof .place-img {
+    height: 72px;
+    width: 89%;
+}
+.main-panel>.content.create-banner-page .form-group .img-upload-area .text-box.style-two .input-file.checkout .place-img {
+    height: 72px;
+    width: 89%;
+}
+.main-panel>.content.create-banner-page .form-group .img-upload-area .text-box.style-two .input-file.checkout .place-img {
+    height: 91px;
+    width: 97%;
+}
+.main-panel>.content.create-banner-page .form-group .img-upload-area .text-box.style-two .input-file.fridge .place-img {
+    height: 35px;
+    width: 100%;
+}
+.main-panel>.content.create-banner-page .form-group .img-upload-area .text-box.style-two .input-file.fridge .place-img {
+    height: 35px;
+    width: 100%;
+}
+.content.create-banner-page .MuiPaper-root {
+    background-color: #00f3ff40;
+    border-radius: 7px;
+    border: 1px solid #ffffff40;
+    margin-bottom: 20px !important;
+}
+
+.content.create-banner-page .MuiPaper-root .MuiAccordionSummary-root {
+    background-color: #00f3ff40;
+    border-radius: 7px 7px 0 0;
+}
+
+.content.create-banner-page .MuiPaper-root .MuiAccordionSummary-root .MuiAccordionSummary-expandIconWrapper {
+    position: absolute;
+    right: 13px;
+}
+
+.content.create-banner-page .MuiPaper-root .MuiAccordionSummary-root .MuiAccordionSummary-expandIconWrapper .MuiSvgIcon-root {
+    color: #fff;
+}
+
+.content.create-banner-page .MuiPaper-root .MuiAccordionSummary-root .MuiAccordionSummary-content {
+    margin: 0;
+}
+
+.content.create-banner-page .MuiPaper-root .MuiAccordionSummary-root .MuiAccordionSummary-content p.MuiTypography-root {
+    color: #fff !important;
+}
+
+.content.create-banner-page .MuiPaper-root .MuiCollapse-root .MuiCollapse-wrapper .MuiCollapse-wrapperInner .MuiAccordion-region .MuiAccordionDetails-root {
+    padding: 11px 5px !important;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.content.create-banner-page .MuiPaper-root .MuiCollapse-root .MuiCollapse-wrapper .MuiCollapse-wrapperInner .MuiAccordion-region .MuiAccordionDetails-root label {
+    color: #fff;
+    font-size: 13px;
+    margin-right: 18px;
+    width: 31%;
+}
+.content.create-banner-page .MuiPaper-root .MuiCollapse-root .MuiCollapse-wrapper .MuiCollapse-wrapperInner .MuiAccordion-region .MuiAccordionDetails-root label .MuiButtonBase-root .MuiSvgIcon-root {
+    color: #ffffff80;
+}
+
+.content.create-banner-page .MuiPaper-root .MuiCollapse-root .MuiCollapse-wrapper .MuiCollapse-wrapperInner .MuiAccordion-region .MuiAccordionDetails-root label .MuiButtonBase-root.Mui-checked .MuiSvgIcon-root {
+    color: #00f3ff40;
+}
+.content.create-banner-page .MuiPaper-root .MuiCollapse-root .MuiCollapse-wrapper .MuiCollapse-wrapperInner .MuiAccordion-region .MuiAccordionDetails-root .age-box {
+    display: flex;
+    flex-wrap: wrap;
+    border-right: 1px solid #ffffff20;
+}
+
+.content.create-banner-page .MuiPaper-root .MuiCollapse-root .MuiCollapse-wrapper .MuiCollapse-wrapperInner .MuiAccordion-region .MuiAccordionDetails-root .age-box label {
+    width: 45%;
+}
+
+.content.create-banner-page .MuiPaper-root .MuiCollapse-root .MuiCollapse-wrapper .MuiCollapse-wrapperInner .MuiAccordion-region .MuiAccordionDetails-root .age-box h3 {
+    font-size: 17px;
+    font-weight: 600;
+    display: block;
+    width: 100%;
+    margin-bottom: 5px;
+    padding-left: 10px;
+}
+.content.create-banner-page .MuiPaper-root .MuiCollapse-root .MuiCollapse-wrapper .MuiCollapse-wrapperInner .MuiAccordion-region .MuiAccordionDetails-root .age-box.style-two {
+    border: none;
+}
+.content.create-banner-page .MuiPaper-root .MuiCollapse-root .MuiCollapse-wrapper .MuiCollapse-wrapperInner .MuiAccordion-region .MuiAccordionDetails-root .location-box label {
+    width: 100%;
+    margin-right: 0;
+}
+.content.create-banner-page .MuiPaper-root .MuiCollapse-root .MuiCollapse-wrapper .MuiCollapse-wrapperInner .MuiAccordion-region .MuiAccordionDetails-root .location-box .form-group {
+    position: relative;
+    margin-left: 11px;
+}
+
+.content.create-banner-page .MuiPaper-root .MuiCollapse-root .MuiCollapse-wrapper .MuiCollapse-wrapperInner .MuiAccordion-region .MuiAccordionDetails-root .location-box .form-group .search-icon {
+    position: absolute;
+    left: 15px;
+    top: 10px;
+    background-color: transparent;
+    border: none;
+    padding: 0;
+    margin: 0;
+    color: #fff;
+}
+
+.content.create-banner-page .MuiPaper-root .MuiCollapse-root .MuiCollapse-wrapper .MuiCollapse-wrapperInner .MuiAccordion-region .MuiAccordionDetails-root .location-box .form-group input {
+    padding: 10px 15px 10px 43px;
+}
+.content.create-banner-page .MuiPaper-root .MuiAccordionSummary-root .MuiAccordionSummary-content p.MuiTypography-root .MuiSvgIcon-root {
+    margin-right: 6px;
+    position: relative;
+    top: -1px;
+}
+.content.create-banner-page .MuiPaper-root .more-setting-box {
+    position: relative;
+    width: 100%;
+}
+
+.content.create-banner-page .MuiPaper-root .more-setting-box .tabs-btn {
+    display: block;
+    color: #ffffff90;
+    width: 100%;
+    transition: all 0.3s ease-in-out;
+    padding: 0 15px 10px;
+    margin-bottom: 10px;
+    background-color: transparent;
+    border: none;
+    text-align: left;
+    border-bottom: 1px solid #ffffff20;
+}
+.content.create-banner-page .MuiPaper-root .MuiCollapse-root .MuiCollapse-wrapper .MuiCollapse-wrapperInner .MuiAccordion-region .MuiAccordionDetails-root .select-date {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 10px 15px;
+    flex-wrap: wrap;
+}
+
+.content.create-banner-page .MuiPaper-root .MuiCollapse-root .MuiCollapse-wrapper .MuiCollapse-wrapperInner .MuiAccordion-region .MuiAccordionDetails-root .select-date .group-form {
+    width: 48%;
+    margin-right: 15px;
+}
+
+.content.create-banner-page .MuiPaper-root .MuiCollapse-root .MuiCollapse-wrapper .MuiCollapse-wrapperInner .MuiAccordion-region .MuiAccordionDetails-root .select-date .group-form input {
+    border: 1px solid #ffffff40;
+    border-radius: 7px;
+    background-color: #00f3ff40;
+    color: #fff !important;
+    height: auto;
+    text-transform: capitalize;
+    width: 100%;
+    padding: 8px;
+    font-size: 14px;
+    font-style: normal;
+}
+.content.create-banner-page .MuiPaper-root .more-setting-box .tabs-btn span {
+    min-width: 175px;
+    color: #fff;
+    display: inline-block;
+}
+
+.content.create-banner-page .MuiPaper-root .more-setting-box .tabs-btn .iocn {
+    position: absolute;
+    right: 0;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.3s ease-in-out;
+}
+
+.content.create-banner-page .MuiPaper-root .more-setting-box .tabs-btn .iocn svg {
+    width: 20px;
+}
+
+.content.create-banner-page .MuiPaper-root .more-setting-box .tabs-btn:hover .iocn {
+    visibility: visible;
+    opacity: 0.7;
+}
+
+.content.create-banner-page .MuiPaper-root .more-setting-box .tabs-btn:last-child {
+    border: none;
+    padding: 0 15px 0;
+    margin: 0;
+}
+.box-ads {
+    background-color: #00f3ff40;
+    border-radius: 7px;
+    border: 1px solid #ffffff40;
+    margin-bottom: 20px !important;
+    padding: 25px;
+}
+
+.box-ads h4 {
+    font-size: 18px;
+    color: #ffffff90;
+}
+
+.box-ads p {
+    margin-bottom: 0;
+    color: #fff !important;
+    font-size: 12px;
+}
+.content.create-banner-page .MuiPaper-root .MuiCollapse-root .MuiCollapse-wrapper .MuiCollapse-wrapperInner .MuiAccordion-region .MuiAccordionDetails-root .devices-box {
+    display: block;
+    width: 100%;
+}
+
+.content.create-banner-page .MuiPaper-root .MuiCollapse-root .MuiCollapse-wrapper .MuiCollapse-wrapperInner .MuiAccordion-region .MuiAccordionDetails-root .devices-box label {
+    width: 100%;
+}
+.content.create-banner-page .MuiPaper-root .MuiCollapse-root .MuiCollapse-wrapper .MuiCollapse-wrapperInner .MuiAccordion-region .MuiAccordionDetails-root .devices-box .sub-compnenet {
+    margin-left: 31px;
+}
+.content.create-banner-page .MuiPaper-root .MuiCollapse-root .MuiCollapse-wrapper .MuiCollapse-wrapperInner .MuiAccordion-region .MuiAccordionDetails-root .timebox {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px 15px;
+}
+
+.content.create-banner-page .MuiPaper-root .MuiCollapse-root .MuiCollapse-wrapper .MuiCollapse-wrapperInner .MuiAccordion-region .MuiAccordionDetails-root .timebox .heading-label {
+    width: 100%;
+}
+
+.content.create-banner-page .MuiPaper-root .MuiCollapse-root .MuiCollapse-wrapper .MuiCollapse-wrapperInner .MuiAccordion-region .MuiAccordionDetails-root .timebox .age-box {
+    width: 48%;
+    padding-right: 15px;
+    margin-right: 15px;
+}
+
+.content.create-banner-page .MuiPaper-root .MuiCollapse-root .MuiCollapse-wrapper .MuiCollapse-wrapperInner .MuiAccordion-region .MuiAccordionDetails-root .timebox .age-box.style-two {
+    margin-right: 0;
+    padding-right: 0;
+    width: 48%;
+}
+
+.content.create-banner-page .MuiPaper-root .MuiCollapse-root .MuiCollapse-wrapper .MuiCollapse-wrapperInner .MuiAccordion-region .MuiAccordionDetails-root .timebox .age-box .form-group {
+    margin-right: 0;
+}
+.content.create-banner-page .MuiPaper-root .MuiCollapse-root .MuiCollapse-wrapper .MuiCollapse-wrapperInner .MuiAccordion-region .MuiAccordionDetails-root .select-date .form-group {
+    width: 50%;
+    margin-right: 0;
+    padding-right: 20px;
+}
+.content.create-banner-page .MuiPaper-root .MuiCollapse-root .MuiCollapse-wrapper .MuiCollapse-wrapperInner .MuiAccordion-region .MuiAccordionDetails-root .select-date .form-group.style-two{
+    padding-right: 0px;
+}
+.content.create-banner-page .MuiPaper-root .MuiCollapse-root .MuiCollapse-wrapper .MuiCollapse-wrapperInner .MuiAccordion-region .MuiAccordionDetails-root .age-box label.full-width {
+    width: 100%;
+}
+.content.create-banner-page .MuiPaper-root .MuiCollapse-root .MuiCollapse-wrapper .MuiCollapse-wrapperInner .MuiAccordion-region .MuiAccordionDetails-root label.full-width {
+    width: 100%;
+}
+.content.create-banner-page .MuiPaper-root .MuiCollapse-root .MuiCollapse-wrapper .MuiCollapse-wrapperInner .MuiAccordion-region .MuiAccordionDetails-root .reach-box {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 10px 15px;
+}
+
+.content.create-banner-page .MuiPaper-root .MuiCollapse-root .MuiCollapse-wrapper .MuiCollapse-wrapperInner .MuiAccordion-region .MuiAccordionDetails-root .reach-box .reach-block {
+    width: 50%;
+    padding-right: 10px;
+}
+
+.content.create-banner-page .MuiPaper-root .MuiCollapse-root .MuiCollapse-wrapper .MuiCollapse-wrapperInner .MuiAccordion-region .MuiAccordionDetails-root .reach-box .reach-block .MuiInputBase-root {
+    width: 100%;
+}
+
+.content.create-banner-page .MuiPaper-root .MuiCollapse-root .MuiCollapse-wrapper .MuiCollapse-wrapperInner .MuiAccordion-region .MuiAccordionDetails-root .reach-box .reach-block .MuiInputBase-root .MuiSelect-select {
+    border: 1px solid #ffffff40;
+    border-radius: 7px;
+    background-color: #00f3ff40;
+    color: #fff !important;
+    height: auto;
+    text-transform: capitalize;
+    width: 100%;
+    padding: 8px;
+    font-size: 14px;
+    font-style: normal;
+}
+
+.content.create-banner-page .MuiPaper-root .MuiCollapse-root .MuiCollapse-wrapper .MuiCollapse-wrapperInner .MuiAccordion-region .MuiAccordionDetails-root .reach-box .reach-block .MuiInputBase-root svg {
+    color: #fff;
+}
+@media only screen and (max-width: 1700px){
+    .tabs-box .form-group .img-upload-area .text-box .input-file.table .img-box .place-img{
+        height: 93px;
+    }
+    .content.create-banner-page .MuiPaper-root .MuiCollapse-root .MuiCollapse-wrapper .MuiCollapse-wrapperInner .MuiAccordion-region .MuiAccordionDetails-root label {
+        color: #fff;
+        font-size: 12px;
+        margin-right: 18px;
+        width: 29%;
+    }
+}
+@media only screen and (max-width: 1400px){
+    .tabs-box .form-group .img-upload-area .text-box .input-file.table .img-box .place-img {
+        height: 79px;
+    }
+    .tabs-box .form-group .img-upload-area .text-box .input-file.wall .replace-img {
+        object-fit: contain !important;
+    }
+    .tabs-box .form-group .img-upload-area .text-box .input-file.wall .img-box .place-img{
+        height: 229px;
+    }
+    .main-panel>.content.create-banner-page .form-group .img-upload-area .text-box.style-two .input-file .img-box,
+    .main-panel>.content.create-banner-page .form-group .img-upload-area .text-box.style-two .input-file.wall .img-box .place-img {
+        height: 150px;
+        margin: 0;
+    }
+    .main-panel>.content.create-banner-page .form-group .img-upload-area .text-box.style-two .input-file.rack .place-img {
+        height: 23px;
+    }
+    .main-panel>.content.create-banner-page .form-group .img-upload-area .text-box.style-two .input-file.table .place-img {
+        height: 73px;
+    }
+    .main-panel>.content.create-banner-page .form-group .img-upload-area .text-box.style-two .input-file.roof .place-img {
+        height: 54px;
+    }
+    .main-panel>.content.create-banner-page .form-group .img-upload-area .text-box.style-two .input-file.checkout .place-img {
+        height: 68px;
+    }
+    .main-panel>.content.create-banner-page .form-group .img-upload-area .text-box.style-two .input-file.fridge .place-img {
+        height: 28px;
+    }
+    .MuiBox-root.css-2royc9 {
+        bottom: -14px;
+        width: 69%;
+        left: 50%;
+        margin-bottom: 20px;
+    }
+}
+@media only screen and (max-width: 1366px){
+    .form-group .img-upload-area .text-box {
+        width: 94%;
+    }
+    .tabs-box .form-group .img-upload-area .text-box .input-file.rack .img-box .place-img{
+        height: 46px;
+    }
+    .tabs-box .form-group .img-upload-area .text-box .input-file.wall .img-box .place-img{
+        height: 219px;
+    }
+    .tabs-box .form-group .img-upload-area .text-box .input-file.wall video{
+        height: 170px;
+    }
+    .content.create-banner-page .MuiPaper-root .MuiCollapse-root .MuiCollapse-wrapper .MuiCollapse-wrapperInner .MuiAccordion-region .MuiAccordionDetails-root label{
+        font-size: 11px;
+        margin-right: 10px;
+    }
+}
+@media only screen and (max-width: 1300px){
+    .tabs-box .form-group .img-upload-area .text-box .input-file.table .img-box .place-img {
+        height: 65px;
+    }
+    .tabs-box .form-group .img-upload-area .text-box .input-file.wall .img-box .place-img {
+        height: 198px;
+        top: 15%;
+    }
+    .tabs-box .form-group .img-upload-area .text-box .input-file.wall video {
+        height: 145px;
+    }
+}
+@media only screen and (max-width: 1200px){
+    .tabs-box .form-group .img-upload-area .text-box .input-file.wall .img-box .place-img {
+        height: 164px;
+        top: 24%;
+    }
+    .MuiBox-root.css-2royc9 {
+        width: 72%;
+        left: 50%;
+        -webkit-transform: translateX(-37%);
+        transform: translateX(-37%);
+    }
+}
+@media only screen and (max-width: 1100px){
+    .tabs-box .form-group .img-upload-area .text-box .input-file.table .img-box .place-img {
+        height: 55px;
+    }
+    .tabs-box .form-group .img-upload-area .text-box .input-file.checkout .img-box .place-img{
+        height: 47px;
+    }
+    .tabs-box .form-group .img-upload-area .text-box .input-file.wall .img-box .place-img {
+        height: 149px;
+        top: 24%;
+    }
+}
+@media only screen and (max-width: 991px){
+    .MuiBox-root.css-2royc9 {
+        width: 100%;
+        left: 0;
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+        padding: 0 30px;
+    }
+    .content.create-banner-page .MuiPaper-root .MuiCollapse-root .MuiCollapse-wrapper .MuiCollapse-wrapperInner .MuiAccordion-region .MuiAccordionDetails-root label{
+        width: 47%;
+    }
+    .tabs-box .form-group .img-upload-area .text-box .input-file.table .img-box .place-img {
+        height: 155px;
+    }
+    .main-panel>.content.create-banner-page .form-group .img-upload-area .text-box.style-two .row {
+        flex-direction: row;
+    }
+    .tabs-box .form-group .img-upload-area .text-box .input-file.checkout .img-box .place-img {
+        height: 135px;
+    }
+    .tabs-box .form-group .img-upload-area .text-box .input-file.fridge .img-box .place-img{
+        height: 86px;
+    }
+    .tabs-box .form-group .img-upload-area .text-box .input-file.wall .img-box {
+        height: 493px;
+        border: none;
+    }
+    .tabs-box .form-group .img-upload-area .text-box .input-file.wall .img-box .place-img {
+        height: 360px;
+        top: 19%;
+    }
+    .tabs-box .form-group .img-upload-area .text-box .input-file.wall video {
+        height: 318px;
+    }
+    .main-panel>.content.create-banner-page .form-group .img-upload-area .text-box .row {
+        align-items: center;
+        flex-direction: column-reverse;
+    }
+    .main-panel>.content.create-banner-page .form-group .img-upload-area .text-box.style-two .input-file .img-box, 
+    .main-panel>.content.create-banner-page .form-group .img-upload-area .text-box.style-two .input-file.wall .img-box .place-img {
+        height: 250px;
+        margin: 0;
+    }
+    .main-panel>.content.create-banner-page .form-group .img-upload-area .text-box.style-two .input-file.rack .place-img {
+        height: 16%;
+    }
+    .main-panel>.content.create-banner-page .form-group .img-upload-area .text-box.style-two .input-file.table .place-img {
+        height: 50%;
+    }
+    .main-panel>.content.create-banner-page .form-group .img-upload-area .text-box.style-two .input-file.roof .place-img {
+        height: 37%;
+    }
+    .main-panel>.content.create-banner-page .form-group .img-upload-area .text-box.style-two .input-file.checkout .place-img {
+        height: 46%;
+    }
+    .main-panel>.content.create-banner-page .form-group .img-upload-area .text-box.style-two .input-file.fridge .place-img {
+        height: 18%;
+    }
+}
+@media only screen and (max-width: 700px){
+    .tabs-box .form-group .img-upload-area .text-box .input-file.table .img-box .place-img {
+        height: 115px;
+    }
+    .tabs-box .form-group .img-upload-area .text-box .input-file.wall .img-box .place-img {
+        height: 299px;
+        top: 19%;
+    }
+    .tabs-box .form-group .img-upload-area .text-box .input-file.wall video {
+        height: 261px;
+    }
+}
+@media only screen and (max-width: 550px){
+    .tabs-box .form-group .img-upload-area .text-box .input-file.table .img-box .place-img {
+        height: 90px;
+    }
+    .tabs-box .form-group .img-upload-area .text-box .input-file.checkout .img-box .place-img {
+        height: 86px;
+    }
+    .tabs-box .form-group .img-upload-area .text-box .input-file.wall .img-box {
+        height: 351px;
+        border: none;
+    }
+    .tabs-box .form-group .img-upload-area .text-box .input-file.wall .img-box .place-img {
+        height: 212px;
+        top: 19%;
+    }
+    .tabs-box .form-group .img-upload-area .text-box .input-file.wall video {
+        height: 186px;
+    }
+}
+@media only screen and (max-width: 600px){
+    .create-banner-step {
+        flex-wrap: wrap;
+    }
+    
+    .create-banner-step .MuiStep-root {
+        width: 33.33%;
+    }
+}
+@media only screen and (max-width: 480px){
+    .content.create-banner-page .MuiPaper-root .MuiCollapse-root .MuiCollapse-wrapper .MuiCollapse-wrapperInner .MuiAccordion-region .MuiAccordionDetails-root .timebox .age-box {
+        padding-right: 0;
+        margin-right: 0;
+        width: 100% !important;
+        border: none !important;
+    }
+    .content.create-banner-page .MuiPaper-root .MuiCollapse-root .MuiCollapse-wrapper .MuiCollapse-wrapperInner .MuiAccordion-region .MuiAccordionDetails-root .select-date .form-group{
+        padding: 0;
+        width: 100%;
+    }
+    .content.create-banner-page .MuiPaper-root .MuiCollapse-root .MuiCollapse-wrapper .MuiCollapse-wrapperInner .MuiAccordion-region .MuiAccordionDetails-root label{
+        width: 100%;
+        margin-right: 0;
+    }
+}
+@media only screen and (max-width: 440px){
+    .tabs-box .form-group .img-upload-area .text-box .input-file.table .img-box .place-img {
+        height: 70px;
+    }
+    .tabs-box .form-group .img-upload-area .text-box .input-file.checkout .img-box .place-img {
+        height: 76px;
+    }
+    .tabs-box .form-group .img-upload-area .text-box .input-file.fridge .img-box .place-img{
+        height: 46px;
+    }
+    .tabs-box .form-group .img-upload-area .text-box .input-file.wall .img-box {
+        height: 226px;
+        border: none;
+    }
+    .tabs-box .form-group .img-upload-area .text-box .input-file.wall .img-box .place-img {
+        height: 144px;
+        top: 19%;
+    }
+    .tabs-box .form-group .img-upload-area .text-box .input-file.wall video {
+        height: 125px;
+    }
+}
+@media only screen and (max-width: 350px){
+    .tabs-box .form-group .img-upload-area .text-box .input-file.table .img-box .place-img {
+        height: 54px;
+    }
+    .tabs-box .form-group .img-upload-area .text-box .input-file.checkout .img-box .place-img {
+        height: 56px;
+    }
+    .create-banner-step .MuiStep-root {
+        width: 50%;
+    }
+    .form-group.tabs-btn .box .text-box {
+        width: 92%;
+        position: relative;
+    }
+}
+
+.info-icon{
+    font-size: 12px;
+    margin-left: 5px;
+    cursor: pointer;
+}

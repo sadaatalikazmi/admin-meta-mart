@@ -1,0 +1,176 @@
+.hover-btn {
+    transition: all 0.3s ease-in-out;
+}
+
+.hover-btn:hover {
+    box-shadow: 6px 6px 0px rgb(0 0 0 / 30%);
+}
+table tbody tr:nth-child(even) td, table tbody tr:nth-child(even) th {
+    background-color: #f5f5f5;
+}
+table tbody tr td .btn-style-one, table tbody tr td .btn-style-two {
+    padding: 5px 10px;
+    font-size: 10px;
+}
+table thead tr th {
+    background-color: #24262f;
+    color: #fff !important;
+    text-transform: capitalize;
+}
+table tbody tr th,
+table tbody tr td{
+    text-transform: capitalize;
+}
+table thead tr th span, table thead tr th span svg {
+    color: #fff !important;
+}
+table tbody tr td .btn-style-one svg {
+    width: 15px;
+    margin-right: 2px;
+    position: relative;
+}
+table tbody tr td img {
+    background-color: #f5f5f5;
+    padding: 6px;
+    border-radius: 6px;
+    box-shadow: 0 0 0 2px #22d8c3, 5px 4px 0 0 #00000030;
+}
+
+table tbody tr:nth-child(even) td img, 
+table tbody tr:nth-child(even) th img {
+    background-color: #fff;
+}
+table tbody tr td .btn-style-two {
+    margin-top: 4px;
+    padding: 8px 10px;
+}
+.submit-btn {
+    width: 40%;
+    background-color: #fff;
+    padding: 15px 35px;
+    border-radius: 35px;
+    margin: 0 auto 50px;
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+
+.form-group .img-upload-area {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.form-group .img-upload-area .img-box {
+    position: relative;
+    border: 1px dashed #BEBEBE;
+    width: 110px;
+    height: 110px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    margin-right: 40px;
+}
+.form-group .img-upload-area .img-box img {
+    width: 100%;
+    height: 100%;
+    object-fit: revert;
+    border-radius: 10px;
+}
+.form-group .img-upload-area .text-box {
+    position: relative;
+    width: 70%;
+    margin: 20px 0 0;
+}
+
+.form-group .img-upload-area .text-box h5 {
+    font-size: 14px;
+    font-weight: 400;
+    color: #fff;
+    margin-bottom: 9px;
+}
+
+.form-group .img-upload-area .text-box p {
+    font-size: 14px;
+    color: #fff !important;
+    z-index: 63402300340430;
+}
+
+.form-group .img-upload-area .text-box .input-file {
+    position: relative;
+    margin-top: 26px;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.form-group .img-upload-area .text-box .input-file input {
+    opacity: 0 !important;
+    position: relative;
+    z-index: 99;
+    cursor: pointer;
+    height: 41px;
+}
+
+.form-group .img-upload-area .text-box .input-file .add-btn {
+    position: absolute;
+    left: 0;
+    cursor: pointer;
+    top: -21px;
+    width: 153px;
+    text-align: center;
+}
+
+.screenshot-modal .modal-content {
+    background-color: transparent !important;
+    background: none !important;
+    box-shadow: none !important;
+    padding-bottom: 0 !important;
+    padding-top: 0 !important;
+    box-shadow: none !important;
+    width: fit-content;
+    margin: auto;
+}
+.screenshot-modal .modal-content img{
+    border-radius: 10px;
+}
+.css-161vxw-MuiOutlinedInput-notchedOutline {
+    border: none !important;
+}
+.screenshot-modal .modal-content .modal-header .close {
+    cursor: pointer;
+    position: relative;
+    z-index: 999;
+}
+
+.screenshot-modal .modal-body .img-box {
+    /* width: 65%; */
+    margin: 0 auto;
+    text-align: center;
+}
+
+
+@media (max-width: 1450px) {
+    .form-group .img-upload-area .img-box {
+        width: 90px;
+        height: 90px;
+    }
+}
+
+@media (max-width: 700px) {
+    .form-group .img-upload-area .img-box {
+        width: 75px;
+        height: 75px;
+    }
+
+    .form-group .img-upload-area .text-box {
+        width: 56%;
+    }
+}
+
+@media (max-width: 420px) {
+    .form-group .img-upload-area .text-box {
+        width: 100%;
+        margin-top: 15px;
+    }
+}
